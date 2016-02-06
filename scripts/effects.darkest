@@ -733,11 +733,11 @@ effect: .name "GR Blight Debuff 4" .target "target" .chance 130% .buff_ids bligh
 effect: .name "GR Blight Debuff 5" .target "target" .chance 140% .buff_ids blight_debuff_5 .on_hit true .on_miss false
 
 //Toxin Trickery
-effect: .name "Shadow Blood 1" .target "target" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 2" .target "target" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 3" .target "target" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 4" .target "target" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 17%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 5" .target "target" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 1" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 2" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 3" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 4" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 17%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 5" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .defense_rating_add 20%	.on_hit true .on_miss true .queue true
 
 effect: .name "GR Self Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 5	.on_hit true .on_miss false .queue true .apply_once true
 effect: .name "GR Self Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 6	.on_hit true .on_miss false .queue true .apply_once true
