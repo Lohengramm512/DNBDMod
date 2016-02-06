@@ -1066,9 +1066,9 @@ effect: .name "Occ Weakening Curse 5" .target "target" .curio_result_type "negat
 //Wyrd Reconstruction
 effect: .name "Wyrd Bleed 1" .target "target" .curio_result_type "negative" .chance 60%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
 effect: .name "Wyrd Bleed 2" .target "target" .curio_result_type "negative" .chance 70%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
-effect: .name "Wyrd Bleed 3" .target "target" .curio_result_type "negative" .chance 70%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
-effect: .name "Wyrd Bleed 4" .target "target" .curio_result_type "negative" .chance 80%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
-effect: .name "Wyrd Bleed 5" .target "target" .curio_result_type "negative" .chance 85%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Wyrd Bleed 3" .target "target" .curio_result_type "negative" .chance 75%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Wyrd Bleed 4" .target "target" .curio_result_type "negative" .chance 80%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Wyrd Bleed 5" .target "target" .curio_result_type "negative" .chance 85%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
 
 //Vulnerability Hex
 effect: .name "Occ Vulnerability Curse 1" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .defense_rating_add -15%	.on_hit true .on_miss false
