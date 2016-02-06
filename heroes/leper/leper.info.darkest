@@ -14,11 +14,11 @@ combat_skill: .id "chop" .level 1 .type "melee" .atk 80% .dmg 0% .crit 2% .launc
 combat_skill: .id "chop" .level 2 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 12 .target 12 .is_crit_valid True 
 combat_skill: .id "chop" .level 3 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 12 .target 12 .is_crit_valid True 
 combat_skill: .id "chop" .level 4 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 12 .target 12 .is_crit_valid True 
-combat_skill: .id "hew" .level 0 .type "melee" .atk 75% .dmg -40% .crit 2% .move 0 2 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 1 .type "melee" .atk 80% .dmg -40% .crit 2% .move 0 2 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 2 .type "melee" .atk 85% .dmg -40% .crit 3% .move 0 2 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 3 .type "melee" .atk 90% .dmg -40% .crit 4% .move 0 2 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 4 .type "melee" .atk 95% .dmg -40% .crit 4% .move 0 2 .launch 123 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 0 .type "melee" .atk 75% .dmg -40% .crit 2% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 1 .type "melee" .atk 80% .dmg -40% .crit 2% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 2 .type "melee" .atk 85% .dmg -40% .crit 3% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 3 .type "melee" .atk 90% .dmg -40% .crit 4% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 4 .type "melee" .atk 95% .dmg -40% .crit 4% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
 combat_skill: .id "focus" .level 0 .type "melee" .atk 85% .dmg -50% .crit 0% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3A" "clear_corpses"
 combat_skill: .id "focus" .level 1 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3B" "clear_corpses"
 combat_skill: .id "focus" .level 2 .type "melee" .atk 95% .dmg -50% .crit 1% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3C" "clear_corpses"
