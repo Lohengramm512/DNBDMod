@@ -9,11 +9,11 @@ armour: .name "houndmaster_armour_1" .def 15% .prot 0 .hp 28 .spd 0 .upgradeRequ
 armour: .name "houndmaster_armour_2" .def 20% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 1
 armour: .name "houndmaster_armour_3" .def 25% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 2
 armour: .name "houndmaster_armour_4" .def 30% .prot 0 .hp 49 .spd 0 .upgradeRequirementCode 3
-combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 90% .dmg 0% .crit 2% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 1" "HM Dmg Marked 1" "Hound Bleed 1" .generation_guaranteed true
-combat_skill: .id "hounds_rush" .level 1 .type "ranged" .atk 95% .dmg 0% .crit 3% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 2" "HM Dmg Marked 2" "Hound Bleed 2"
-combat_skill: .id "hounds_rush" .level 2 .type "ranged" .atk 100% .dmg 0% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 3" "HM Dmg Marked 3" "Hound Bleed 3"
-combat_skill: .id "hounds_rush" .level 3 .type "ranged" .atk 105% .dmg 0% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 4" "HM Dmg Marked 4" "Hound Bleed 4"
-combat_skill: .id "hounds_rush" .level 4 .type "ranged" .atk 110% .dmg 0% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 5" "HM Dmg Marked 5" "Hound Bleed 5"
+combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 90% .dmg 0% .crit 2% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 1" "HM Dmg Marked 1" "Bleed 1" .generation_guaranteed true
+combat_skill: .id "hounds_rush" .level 1 .type "ranged" .atk 95% .dmg 0% .crit 3% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 2" "HM Dmg Marked 2" "Bleed 2"
+combat_skill: .id "hounds_rush" .level 2 .type "ranged" .atk 100% .dmg 0% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 3" "HM Dmg Marked 3" "Bleed 3"
+combat_skill: .id "hounds_rush" .level 3 .type "ranged" .atk 105% .dmg 0% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 4" "HM Dmg Marked 4" "Bleed 4"
+combat_skill: .id "hounds_rush" .level 4 .type "ranged" .atk 110% .dmg 0% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 5" "HM Dmg Marked 5" "Bleed 5"
 combat_skill: .id "hounds_harry" .level 0 .type "ranged" .atk 85% .dmg -80% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Hound Bleed 1" "Hound Slow 1"
 combat_skill: .id "hounds_harry" .level 1 .type "ranged" .atk 90% .dmg -80% .crit 0% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Hound Bleed 2" "Hound Slow 2"
 combat_skill: .id "hounds_harry" .level 2 .type "ranged" .atk 95% .dmg -80% .crit 1% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Hound Bleed 3" "Hound Slow 3"
