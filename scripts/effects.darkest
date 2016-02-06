@@ -750,7 +750,7 @@ effect: .name "GR Self Speed 5" .target "performer" .curio_result_type "positive
 //Hellion
 //-------------------------
 //**Exhaust**
-effect: .name "Hellion Exhaust" .target "performer" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .damage_low_multiply -20% .damage_high_multiply -20% .defense_rating_add -15% .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "Hellion Exhaust" .target "performer" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .duration 2 .defense_rating_add -10% .apply_once true .on_hit true .on_miss true .queue true
 
 //Wicked Hack
 
@@ -762,23 +762,23 @@ effect: .name "Hellion Exhaust" .target "performer" .curio_result_type "negative
 
 
 //If It Bleeds
-
+effect: .name "Hellion BleedKiller"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 66%	.damage_high_multiply 66% .crit_chance_add 8%	.on_hit true .on_miss false
 
 //Breakthrough
 
 
 //Adrenaline Rush
-effect: .name "Adrenaline 1" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 5% .damage_low_multiply 20% .damage_high_multiply 20%	.on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 2" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 6% .damage_low_multiply 22% .damage_high_multiply 22%	.on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 3" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 7% .damage_low_multiply 24% .damage_high_multiply 24%	.on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 4" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 8% .damage_low_multiply 26% .damage_high_multiply 26%	.on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 5" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 9% .damage_low_multiply 28% .damage_high_multiply 28%	.on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 5% .speed_rating_add 3 .on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 6% .speed_rating_add 3 .on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 7% .speed_rating_add 4 .on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 8%  .speed_rating_add 4 .on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .speed_rating_add 5 .on_hit true .on_miss true .queue true
 
-effect: .name "HellionHealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 1	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 2	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 3	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 10	.on_hit true .on_miss false .queue false
 
 //Bleed Out
 
