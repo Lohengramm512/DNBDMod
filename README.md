@@ -1,5 +1,6 @@
-# DNBD
-Darkest Night, Brightest Dawn Mod
+# Darkest Night, Brightest Dawn - A Mod For Darkest Dungeon
+
+Current stable version: 13488.1.0 (Phase 1)
 
 Phase 1 of this mod seeks to enable more team compositions by bringing less useful skills more in line with the better ones. This work is
 laregly finished and will be the main thrust of the initial release.
