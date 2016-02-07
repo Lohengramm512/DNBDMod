@@ -20,8 +20,7 @@
          "id" : "ancestors_coat",
          "buffs" : 
          [
-            "TRINKET_DEF_B4",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_DEF_B4"
          ],
          "hero_class_requirements":
          [
@@ -37,8 +36,7 @@
          [
             "TRINKET_ancestors_musket_ball_RANGEDCRIT_BUFF",
             "TRINKET_ancestors_musket_ball_RANGEDDMG_BUFF_L",
-            "TRINKET_ancestors_musket_ball_RANGEDDMG_BUFF_H",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_musket_ball_RANGEDDMG_BUFF_H"
          ],
          "hero_class_requirements":
          [
@@ -52,8 +50,7 @@
          "id" : "ancestors_pistol",
          "buffs" : 
          [
-            "TRINKET_rangedonly_ACC_B4",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_rangedonly_ACC_B4"
          ],
          "hero_class_requirements":
          [
@@ -69,8 +66,7 @@
          [
             "TRINKET_ancestors_pen_MELEECRIT_BUFF",
             "TRINKET_ancestors_pen_MELEEDMG_BUFF_L",
-            "TRINKET_ancestors_pen_MELEEDMG_BUFF_H",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_pen_MELEEDMG_BUFF_H"
          ],
          "hero_class_requirements":
          [
@@ -84,8 +80,7 @@
          "id" : "ancestors_portrait",
          "buffs" : 
          [
-            "TRINKET_RESOLVEXPBONUS_B4",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_RESOLVEXPBONUS_B4"
          ],
          "hero_class_requirements":
          [
@@ -100,8 +95,7 @@
          "buffs" : 
          [
             "TRINKET_ancestors_lantern_PARTYSURPRISE_BUFF",
-            "TRINKET_ancestors_lantern_MONSTERSURPRISE_BUFF",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_lantern_MONSTERSURPRISE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -116,8 +110,7 @@
          "buffs" : 
          [
             "TRINKET_ancestors_handkerchief_BLEEDRESIST_BUFF",
-            "TRINKET_ancestors_handkerchief_DISEASERESIST_BUFF",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_handkerchief_DISEASERESIST_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -132,8 +125,7 @@
          "buffs" : 
          [
             "TRINKET_ancestors_moustache_cream_BLIGHTRESIST_BUFF",
-            "TRINKET_ancestors_moustache_cream_DEBUFFRESIST_BUFF",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_moustache_cream_DEBUFFRESIST_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -148,8 +140,7 @@
          "buffs" : 
          [
             "TRINKET_ancestors_signet_ring_ACC_BUFF",
-            "TRINKET_ancestors_signet_ring_PROT_BUFF",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_signet_ring_PROT_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -164,8 +155,7 @@
          "buffs" : 
          [
             "TRINKET_ancestors_map_TRAPRESIST_BUFF",
-            "TRINKET_ancestors_map_SCOUTING_BUFF",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_map_SCOUTING_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -182,8 +172,7 @@
             "TRINKET_ancestors_candle_lightabove_DMG_BUFF_L",
             "TRINKET_ancestors_candle_lightabove_DMG_BUFF_H",
             "TRINKET_ancestors_candle_lightabove_SPD_BUFF",
-            "TRINKET_ancestors_candle_lightabove_DODGE_BUFF",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_candle_lightabove_DODGE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -211,8 +200,7 @@
          "id" : "ancestors_bottle",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B4",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_MAXHP_B4"
          ],
          "hero_class_requirements":
          [
@@ -227,8 +215,7 @@
          "buffs" : 
          [
             "TRINKET_ancestors_scroll_HEALRECEIVED_BUFF",
-            "TRINKET_ancestors_scroll_STRESSHEALRECEIVED_BUFF",
-            "TRINKET_ANCESTOR_STRESSDMG"
+            "TRINKET_ancestors_scroll_STRESSHEALRECEIVED_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -243,9 +230,7 @@
          "buffs" : 
          [
             "TRINKET_sacred_scroll_STRESSDMG_BUFF",
-            "TRINKET_sacred_scroll_HEALDONE_BUFF",
-            "TRINKET_sacred_scroll_STUNSKILL_DEBUFF",
-            "TRINKET_sacred_scroll_SPD_DEBUFF"
+            "TRINKET_sacred_scroll_HEALDONE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -261,9 +246,7 @@
          "buffs" : 
          [
             "TRINKET_legendary_bracer_DMG_BUFF_L",
-            "TRINKET_legendary_bracer_DMG_BUFF_H",
-            "TRINKET_legendary_bracer_SPD_DEBUFF",
-            "TRINKET_legendary_bracer_STRESSDMG_DEBUFF"
+            "TRINKET_legendary_bracer_DMG_BUFF_H"
          ],
          "hero_class_requirements":
          [
@@ -278,8 +261,7 @@
          "buffs" : 
          [
             "TRINKET_ACC_B3",
-            "TRINKET_CRIT_B1",
-            "TRINKET_DEF_D3"
+            "TRINKET_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -294,10 +276,7 @@
          "buffs" : 
          [
             "TRINKET_tough_ring_PROT_BUFF",
-            "TRINKET_tough_ring_MAXHP_BUFF",
-            "TRINKET_tough_ring_DMG_DEBUFF_L",
-            "TRINKET_tough_ring_DMG_DEBUFF_H",
-            "TRINKET_tough_ring_STRESSDMG_DEBUFF"
+            "TRINKET_tough_ring_MAXHP_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -313,10 +292,7 @@
          [
             "TRINKET_BLIGHTRESIST_B3",
             "TRINKET_BLEEDRESIST_B3",
-            "TRINKET_DEBUFFRESIST_B3",
-            "TRINKET_BLIGHTSKILL_D3",
-            "TRINKET_BLEEDSKILL_D3",
-            "TRINKET_DEBUFFSKILL_D3"
+            "TRINKET_DEBUFFRESIST_B3"
          ],
          "hero_class_requirements":
          [
@@ -332,8 +308,7 @@
          [
             "TRINKET_DMGL_B2",
             "TRINKET_DMGH_B2",
-            "TRINKET_BLEEDSKILL_B2",
-            "TRINKET_HPHEALRECEIVED_D3"
+            "TRINKET_BLEEDSKILL_B2"
          ],
          "hero_class_requirements":
          [
@@ -350,10 +325,7 @@
          [
             "TRINKET_rangedonly_DMGL_B2",
             "TRINKET_rangedonly_DMGH_B2",
-            "TRINKET_rangedonly_ACC_B3",
-            "TRINKET_meleeonly_DMGL_D3",
-            "TRINKET_meleeonly_DMGH_D3",
-            "TRINKET_meleeonly_CRIT_D2"
+            "TRINKET_rangedonly_ACC_B3"
          ],
          "hero_class_requirements":
          [
@@ -370,9 +342,7 @@
          [
             "TRINKET_BACKRANK_DMGL_B2",
             "TRINKET_BACKRANK_DMGH_B2",
-            "TRINKET_DEBUFFSKILL_B2",
-            "TRINKET_HEALDONE_D3",
-            "TRINKET_HPHEALRECEIVED_D3"
+            "TRINKET_DEBUFFSKILL_B2"
          ],
          "hero_class_requirements":
          [
@@ -389,8 +359,7 @@
          [
             "TRINKET_rangedonly_ACC_B3",
             "TRINKET_STUNSKILL_B3",
-            "TRINKET_BLIGHTSKILL_B1",
-            "TRINKET_STRESSDMG_D3"
+            "TRINKET_BLIGHTSKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -405,8 +374,7 @@
          "id" : "book_of_holiness",
          "buffs" : 
          [
-            "TRINKET_STRESSDMG_B3",
-            "TRINKET_DEATHBLOWRESIST_D2"
+            "TRINKET_STRESSDMG_B3"
          ],
          "hero_class_requirements":
          [
@@ -422,8 +390,7 @@
          [
             "TRINKET_STUNSKILL_B3",
             "TRINKET_DEBUFFSKILL_B3",
-            "TRINKET_CRIT_B1",
-            "TRINKET_RESOLVECHECK_D3"
+            "TRINKET_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -439,9 +406,7 @@
          "buffs" : 
          [
             "TRINKET_CRIT_B3",
-            "TRINKET_SPD_B3",
-            "TRINKET_RESOLVECHECK_D3",
-            "TRINKET_HPHEALRECEIVED_D3"
+            "TRINKET_SPD_B3"
          ],
          "hero_class_requirements":
          [
@@ -459,8 +424,7 @@
             "TRINKET_raiders_talisman_CRIT_BUFF",
             "TRINKET_raiders_talisman_TRAPRESIST_BUFF",
             "TRINKET_raiders_talisman_SPD_BUFF",
-            "TRINKET_raiders_talisman_SCOUTING_BUFF",
-            "TRINKET_raiders_talisman_EATSASTWO"
+            "TRINKET_raiders_talisman_SCOUTING_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -491,9 +455,7 @@
          [
             "TRINKET_RESOLVECHECK_B3",
             "TRINKET_STRESSDMG_B3",
-            "TRINKET_DEATHBLOWRESIST_B3",
-            "TRINKET_BLIGHTRESIST_D1",
-            "TRINKET_BLEEDRESIST_D1"
+            "TRINKET_DEATHBLOWRESIST_B3"
          ],
          "hero_class_requirements":
          [
@@ -509,9 +471,7 @@
          "buffs" : 
          [
             "TRINKET_lightbelow_CRIT_B3",
-            "TRINKET_lightbelow_ACC_B3",
-            "TRINKET_DEBUFFRESIST_D1",
-            "TRINKET_BLEEDRESIST_D1"
+            "TRINKET_lightbelow_ACC_B3"
          ],
          "hero_class_requirements":
          [
@@ -544,8 +504,7 @@
          "buffs" : 
          [
             "TRINKET_DEATHBLOWRESIST_B3",
-            "TRINKET_lightbelow_STRESSDMG_B3",
-            "TRINKET_RESOLVECHECK_D3"
+            "TRINKET_lightbelow_STRESSDMG_B3"
          ],
          "hero_class_requirements":
          [
@@ -578,8 +537,7 @@
             "TRINKET_at_deaths_door_DMGL_B3",
             "TRINKET_at_deaths_door_DMGH_B3",
             "TRINKET_at_deaths_door_CRIT_B3",
-            "TRINKET_DEATHBLOWRESIST_B3",
-            "TRINKET_DEF_D1"
+            "TRINKET_DEATHBLOWRESIST_B3"
          ],
          "hero_class_requirements":
          [
@@ -595,8 +553,7 @@
          [
             "TRINKET_lightabove_DMGL_B1",
             "TRINKET_lightabove_DMGH_B1",
-            "TRINKET_lightabove_ACC_B2",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_lightabove_ACC_B2"
          ],
          "hero_class_requirements":
          [
@@ -611,8 +568,7 @@
          "buffs" : 
          [
             "TRINKET_lightabove_PROT_B1",
-            "TRINKET_lightabove_DEF_B2",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_lightabove_DEF_B2"
          ],
          "hero_class_requirements":
          [
@@ -628,10 +584,7 @@
          [
             "TRINKET_berserk_charm_SPD_BUFF",
             "TRINKET_berserk_charm_DMG_BUFF_L",
-            "TRINKET_berserk_charm_DMG_BUFF_H",
-            "TRINKET_berserk_charm_STRESSDMG_BUFF",
-            "TRINKET_berserk_charm_ACC_DEBUFF",
-            "TRINKET_berserk_charm_RESOLVECHECK_DEBUFF"
+            "TRINKET_berserk_charm_DMG_BUFF_H"
          ],
          "hero_class_requirements":
          [
@@ -647,8 +600,7 @@
          [
             "TRINKET_lightbelow_DMGL_B2",
             "TRINKET_lightbelow_DMGH_B2",
-            "TRINKET_lightbelow_ACC_B3",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_lightbelow_ACC_B3"
          ],
          "hero_class_requirements":
          [
@@ -662,8 +614,7 @@
          "id" : "camouflage_cloak",
          "buffs" : 
          [
-            "TRINKET_lightabove_DEF_B3",
-            "TRINKET_STUNRESIST_D2"
+            "TRINKET_lightabove_DEF_B3"
          ],
          "hero_class_requirements":
          [
@@ -678,9 +629,7 @@
          "buffs" : 
          [
             "TRINKET_SPD_B2",
-            "TRINKET_DEF_B2",
-            "TRINKET_STUNRESIST_D2",
-            "TRINKET_MOVERESIST_D2"
+            "TRINKET_DEF_B2"
          ],
          "hero_class_requirements":
          [
@@ -695,9 +644,7 @@
          "buffs" : 
          [
             "TRINKET_FRONTRANK_DMGL_B3",
-            "TRINKET_FRONTRANK_DMGH_B3",
-            "TRINKET_CRIT_D3",
-            "TRINKET_SPD_D2"
+            "TRINKET_FRONTRANK_DMGH_B3"
          ],
          "hero_class_requirements":
          [
@@ -711,8 +658,7 @@
          "id" : "life_crystal",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B3",
-            "TRINKET_SPD_D1"
+            "TRINKET_MAXHP_B3"
          ],
          "hero_class_requirements":
          [
@@ -727,8 +673,7 @@
          "buffs" : 
          [
             "TRINKET_lightbelow_PROT_B3",
-            "TRINKET_lightbelow_DEF_B2",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_lightbelow_DEF_B2"
          ],
          "hero_class_requirements":
          [
@@ -743,8 +688,7 @@
          "buffs" : 
          [
             "TRINKET_firstroundonly_SPD_B3",
-            "TRINKET_firstroundonly_CRIT_B3",
-            "TRINKET_NOTfirstroundonly_SPD_D3"
+            "TRINKET_firstroundonly_CRIT_B3"
          ],
          "hero_class_requirements":
          [
@@ -759,8 +703,7 @@
          "buffs" : 
          [
             "TRINKET_FRONTRANK_CRIT_B2",
-            "TRINKET_HEALDONE_B2",
-            "TRINKET_BLIGHTRESIST_D1"
+            "TRINKET_HEALDONE_B2"
          ],
          "hero_class_requirements":
          [
@@ -776,8 +719,7 @@
          "buffs" : 
          [
             "TRINKET_DEF_B3",
-            "TRINKET_rangedonly_ACC_B2",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_rangedonly_ACC_B2"
          ],
          "hero_class_requirements":
          [
@@ -792,8 +734,7 @@
          "id" : "snipers_ring",
          "buffs" : 
          [
-            "TRINKET_BACKRANK_ACC_B3",
-            "TRINKET_SPD_D2"
+            "TRINKET_BACKRANK_ACC_B3"
          ],
          "hero_class_requirements":
          [
@@ -808,9 +749,7 @@
          "buffs" : 
          [
             "TRINKET_MOVESKILL_B3",
-            "TRINKET_STUNSKILL_B3",
-            "TRINKET_DMGL_D1",
-            "TRINKET_DMGH_D1"
+            "TRINKET_STUNSKILL_B3"
          ],
          "hero_class_requirements":
          [
@@ -826,8 +765,7 @@
          "buffs" : 
          [
             "TRINKET_ACC_B2",
-            "TRINKET_CRIT_B2",
-            "TRINKET_DEF_D2"
+            "TRINKET_CRIT_B2"
          ],
          "hero_class_requirements":
          [
@@ -842,9 +780,7 @@
          "id" : "protective_collar",
          "buffs" : 
          [
-            "TRINKET_DEF_B3",
-            "TRINKET_DMGL_D1",
-            "TRINKET_DMGH_D1"
+            "TRINKET_DEF_B3"
          ],
          "hero_class_requirements":
          [
@@ -874,8 +810,7 @@
          "buffs" : 
          [
             "TRINKET_bright_tambourine_lightabove_STRESSDMG_BUFF",
-            "TRINKET_bright_tambourine_lightbelow_STRESSDMG_DEBUFF",
-            "TRINKET_bright_tambourine_STRESSHEALDONE_BUFF"
+			"TRINKET_bright_tambourine_STRESSHEALDONE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -892,8 +827,7 @@
          [
             "TRINKET_STUNRESIST_B3",
             "TRINKET_BLIGHTRESIST_B2",
-            "TRINKET_BLEEDRESIST_B2",
-            "TRINKET_MAXHP_D2"
+            "TRINKET_BLEEDRESIST_B2"
          ],
          "hero_class_requirements":
          [
@@ -923,8 +857,7 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_CRIT_B3",
-            "TRINKET_BLEEDSKILL_B3",
-            "TRINKET_SPD_D1"
+            "TRINKET_BLEEDSKILL_B3"
          ],
          "hero_class_requirements":
          [
@@ -971,8 +904,7 @@
          "buffs" : 
          [
             "TRINKET_DMGL_B2",
-            "TRINKET_DMGH_B2",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_DMGH_B2"
          ],
          "hero_class_requirements":
          [
@@ -988,8 +920,7 @@
          "buffs" : 
          [
             "TRINKET_hunters_talon_CRIT_BUFF",
-            "TRINKET_hunters_talon_ACC_BUFF",
-            "TRINKET_hunters_talon_EATSASTWO"
+            "TRINKET_hunters_talon_ACC_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1024,8 +955,7 @@
             "TRINKET_profane_scroll_DMG_BUFF_H",
             "TRINKET_profane_scroll_DEBUFFSKILL_BUFF",
             "TRINKET_profane_scroll_PROTINRANK_BUFF",
-            "TRINKET_profane_scroll_HEALDONEINRANK_BUFF",
-            "TRINKET_profane_scroll_STRESSDMG_DEBUFF"
+            "TRINKET_profane_scroll_HEALDONEINRANK_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1040,8 +970,7 @@
          "id" : "book_of_holy_healing",
          "buffs" : 
          [
-            "TRINKET_book_of_holy_healing_HEALDONE_BUFF",
-            "TRINKET_book_of_holy_healing_MAXHP_DEBUFF"
+            "TRINKET_book_of_holy_healing_HEALDONE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1056,8 +985,7 @@
          "id" : "shimmering_cloak",
          "buffs" : 
          [
-            "TRINKET_DEF_B2",
-            "TRINKET_HPHEALRECEIVED_D3"
+            "TRINKET_DEF_B2"
          ],
          "hero_class_requirements":
          [
@@ -1072,8 +1000,7 @@
          "buffs" : 
          [
             "TRINKET_firstroundonly_SPD_B3",
-            "TRINKET_NOTfirstroundonly_SPD_B1",
-            "TRINKET_STUNSKILL_D3"
+            "TRINKET_NOTfirstroundonly_SPD_B1"
          ],
          "hero_class_requirements":
          [
@@ -1088,8 +1015,7 @@
          "id" : "double_edged_pendant",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B2",
-            "TRINKET_STUNRESIST_D1"
+            "TRINKET_MAXHP_B2"
          ],
          "hero_class_requirements":
          [
@@ -1105,8 +1031,7 @@
          "buffs" : 
          [
             "TRINKET_STUNSKILL_B2",
-            "TRINKET_STUNRESIST_B1",
-            "TRINKET_DEF_D2"
+            "TRINKET_STUNRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -1121,9 +1046,7 @@
          "buffs" : 
          [
             "TRINKET_lightabove_CRIT_B1",
-            "TRINKET_lightabove_DEF_B1",
-            "TRINKET_lightbelow_CRIT_D2",
-            "TRINKET_lightbelow_DEF_D2"
+            "TRINKET_lightabove_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -1138,8 +1061,7 @@
          "buffs" : 
          [
             "TRINKET_BLEEDSKILL_B2",
-            "TRINKET_BLEEDRESIST_B1",
-            "TRINKET_DEF_D2"
+            "TRINKET_BLEEDRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -1153,8 +1075,7 @@
          "id" : "paralyzers_crest",
          "buffs" : 
          [
-            "TRINKET_STUNSKILL_B3",
-            "TRINKET_DEF_D1"
+            "TRINKET_STUNSKILL_B3"
          ],
          "hero_class_requirements":
          [
@@ -1170,8 +1091,7 @@
          "buffs" : 
          [
             "TRINKET_ACC_B2",
-            "TRINKET_CRIT_B1",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -1187,8 +1107,7 @@
          "buffs" : 
          [
             "TRINKET_STRESSDMG_B1",
-            "TRINKET_ACC_B1",
-            "TRINKET_DEF_D2"
+            "TRINKET_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -1218,8 +1137,7 @@
          "buffs" : 
          [
             "TRINKET_DEF_B2",
-            "TRINKET_SPD_B2",
-            "TRINKET_rangedonly_ACC_D2"
+            "TRINKET_SPD_B2"
          ],
          "hero_class_requirements":
          [
@@ -1234,8 +1152,7 @@
          "id" : "steady_bracer",
          "buffs" : 
          [
-            "TRINKET_rangedonly_ACC_B2",
-            "TRINKET_DEF_D1"
+            "TRINKET_rangedonly_ACC_B2"
          ],
          "hero_class_requirements":
          [
@@ -1250,8 +1167,7 @@
          "buffs" : 
          [
             "TRINKET_MOVERESIST_B3",
-            "TRINKET_PROT_B2",
-            "TRINKET_SPD_D2"
+            "TRINKET_PROT_B2"
          ],
          "hero_class_requirements":
          [
@@ -1280,8 +1196,7 @@
          "id" : "longevity_eyepatch",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B2",
-            "TRINKET_SPD_D1"
+            "TRINKET_MAXHP_B2"
          ],
          "hero_class_requirements":
          [
@@ -1297,8 +1212,7 @@
          "buffs" : 
          [
             "TRINKET_DEBUFFSKILL_B3",
-            "TRINKET_MOVESKILL_B1",
-            "TRINKET_MAXHP_D1"
+            "TRINKET_MOVESKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -1313,8 +1227,7 @@
          "id" : "seer_stone",
          "buffs" : 
          [
-            "TRINKET_SCOUTING_B2",
-            "TRINKET_SPD_D1"
+            "TRINKET_SCOUTING_B2"
          ],
          "hero_class_requirements":
          [
@@ -1328,8 +1241,7 @@
          "id" : "cudgel_weight",
          "buffs" : 
          [
-            "TRINKET_STUNSKILL_B3",
-            "TRINKET_SPD_D1"
+            "TRINKET_STUNSKILL_B3"
          ],
          "hero_class_requirements":
          [
@@ -1360,8 +1272,7 @@
          "buffs" : 
          [
             "TRINKET_BLIGHTSKILL_B3",
-            "TRINKET_SPD_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_SPD_B1"
          ],
          "hero_class_requirements":
          [
@@ -1376,8 +1287,7 @@
          "id" : "swift_cloak",
          "buffs" : 
          [
-            "TRINKET_SPD_B2",
-            "TRINKET_MOVERESIST_D2"
+            "TRINKET_SPD_B2"
          ],
          "hero_class_requirements":
          [
@@ -1391,8 +1301,7 @@
          "id" : "gamblers_charm",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B2",
-            "TRINKET_DEATHBLOWRESIST_D2"
+            "TRINKET_MAXHP_B2"
          ],
          "hero_class_requirements":
          [
@@ -1407,8 +1316,7 @@
          "buffs" : 
          [
             "TRINKET_RESOLVECHECK_B2",
-            "TRINKET_STRESSDMG_B1",
-            "TRINKET_SPD_D2"
+            "TRINKET_STRESSDMG_B1"
          ],
          "hero_class_requirements":
          [
@@ -1423,8 +1331,7 @@
          "buffs" : 
          [
             "TRINKET_BLIGHTRESIST_B2",
-            "TRINKET_DISEASERESIST_B2",
-            "TRINKET_SPD_D2"
+            "TRINKET_DISEASERESIST_B2"
          ],
          "hero_class_requirements":
          [
@@ -1439,8 +1346,7 @@
          "buffs" : 
          [
             "TRINKET_BLIGHTSKILL_B2",
-            "TRINKET_BLIGHTRESIST_B1",
-            "TRINKET_BLEEDRESIST_D1"
+            "TRINKET_BLIGHTRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -1455,9 +1361,7 @@
          "buffs" : 
          [
             "TRINKET_dark_bracer_lightbelow_CRIT_BUFF",
-            "TRINKET_dark_bracer_lightbelow_DEF_BUFF",
-            "TRINKET_dark_bracer_lightabove_DMG_DEBUFF_L",
-            "TRINKET_dark_bracer_lightabove_DMG_DEBUFF_H"
+            "TRINKET_dark_bracer_lightbelow_DEF_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1472,8 +1376,7 @@
          "buffs" : 
          [
             "TRINKET_DEBUFFSKILL_B2",
-            "TRINKET_DEBUFFRESIST_B2",
-            "TRINKET_DEF_D1"
+            "TRINKET_DEBUFFRESIST_B2"
          ],
          "hero_class_requirements":
          [
@@ -1488,9 +1391,7 @@
          "buffs" : 
          [
             "TRINKET_surgical_glove_MELEECRIT_BUFF",
-            "TRINKET_surgical_glove_MELEEACC_BUFF",
-            "TRINKET_surgical_glove_MOVERESIST_DEBUFF",
-            "TRINKET_surgical_glove_DEBUFFRESIST_DEBUFF"
+            "TRINKET_surgical_glove_MELEEACC_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1521,8 +1422,7 @@
          "buffs" : 
          [
             "TRINKET_tenacity_ring_DEATHBLOWRESIST_BUFF",
-            "TRINKET_tenacity_ring_DODGE_BUFF",
-            "TRINKET_tenacity_ring_CRIT_DEBUFF"
+            "TRINKET_tenacity_ring_DODGE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1566,8 +1466,7 @@
          "buffs" : 
          [
             "TRINKET_move_amulet_MOVESKILL_BUFF",
-            "TRINKET_move_amulet_MOVERESIST_BUFF",
-            "TRINKET_move_amulet_DEBUFFRESIST_DEBUFF"
+            "TRINKET_move_amulet_MOVERESIST_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1583,9 +1482,7 @@
          [
             "TRINKET_book_of_rage_HPBELOWDMG_BUFF_L",
             "TRINKET_book_of_rage_HPBELOWDMG_BUFF_H",
-            "TRINKET_book_of_rage_HPBELOWCRIT_BUFF",
-            "TRINKET_book_of_rage_BLEEDRESIST_DEBUFF",
-            "TRINKET_book_of_rage_BLIGHTRESIST_DEBUFF"
+            "TRINKET_book_of_rage_HPBELOWCRIT_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1615,8 +1512,7 @@
          "buffs" : 
          [
             "TRINKET_DMGL_B1",
-            "TRINKET_DMGH_B1",
-            "TRINKET_DEF_D2"
+            "TRINKET_DMGH_B1"
          ],
          "hero_class_requirements":
          [
@@ -1646,8 +1542,7 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_DMGL_B1",
-            "TRINKET_meleeonly_DMGH_B1",
-            "TRINKET_HEALDONE_D1"
+            "TRINKET_meleeonly_DMGH_B1"
          ],
          "hero_class_requirements":
          [
@@ -1662,9 +1557,7 @@
          "id" : "youth_chalice",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B1",
-            "TRINKET_DMGL_D2",
-            "TRINKET_DMGH_D2"
+            "TRINKET_MAXHP_B1"
          ],
          "hero_class_requirements":
          [
@@ -1680,8 +1573,7 @@
          "buffs" : 
          [
             "TRINKET_survival_guide_SCOUTING_BUFF",
-            "TRINKET_survival_guide_TRAPRESIST_BUFF",
-            "TRINKET_survival_guide_SPD_DEBUFF"
+            "TRINKET_survival_guide_TRAPRESIST_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1695,8 +1587,7 @@
          "id" : "slippery_boots",
          "buffs" : 
          [
-            "TRINKET_DEF_B1",
-            "TRINKET_MOVERESIST_D2"
+            "TRINKET_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -1711,8 +1602,7 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_DMGL_B2",
-            "TRINKET_meleeonly_DMGH_B2",
-            "TRINKET_MOVESKILL_D3"
+            "TRINKET_meleeonly_DMGH_B2"
          ],
          "hero_class_requirements":
          [
@@ -1728,8 +1618,7 @@
          "buffs" : 
          [
             "TRINKET_EATSASZERO",
-            "TRINKET_MAXHP_B1",
-            "TRINKET_DEF_D2"
+            "TRINKET_MAXHP_B1"
          ],
          "hero_class_requirements":
          [
@@ -1744,8 +1633,7 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_DMGL_B1",
-            "TRINKET_meleeonly_DMGH_B1",
-            "TRINKET_DEF_D2"
+            "TRINKET_meleeonly_DMGH_B1"
          ],
          "hero_class_requirements":
          [
@@ -1759,8 +1647,7 @@
          "id" : "book_of_intuition",
          "buffs" : 
          [
-            "TRINKET_PARTYSURPRISE_B2",
-            "TRINKET_SPD_D1"
+            "TRINKET_PARTYSURPRISE_B2"
          ],
          "hero_class_requirements":
          [
@@ -1775,8 +1662,7 @@
          "buffs" : 
          [
             "TRINKET_DEF_B1",
-            "TRINKET_SPD_B1",
-            "TRINKET_DEBUFFRESIST_D2"
+            "TRINKET_SPD_B1"
          ],
          "hero_class_requirements":
          [
@@ -1791,8 +1677,7 @@
          "id" : "defenders_seal",
          "buffs" : 
          [
-            "TRINKET_PROT_B1",
-            "TRINKET_CRIT_D1"
+            "TRINKET_PROT_B1"
          ],
          "hero_class_requirements":
          [
@@ -1807,8 +1692,7 @@
          "id" : "archers_ring",
          "buffs" : 
          [
-            "TRINKET_rangedonly_ACC_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_rangedonly_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -1822,8 +1706,7 @@
          "id" : "deteriorating_bracer",
          "buffs" : 
          [
-            "TRINKET_hpabove_DEF_B2",
-            "TRINKET_hpbelow_DEF_D2"
+            "TRINKET_hpabove_DEF_B2"
          ],
          "hero_class_requirements":
          [
@@ -1838,8 +1721,7 @@
          "buffs" : 
          [
             "TRINKET_DMGL_RANGED_B1",
-            "TRINKET_DMGH_RANGED_B1",
-            "TRINKET_STUNRESIST_D2"
+            "TRINKET_DMGH_RANGED_B1"
          ],
          "hero_class_requirements":
          [
@@ -1854,8 +1736,7 @@
          "id" : "recovery_chalice",
          "buffs" : 
          [
-            "TRINKET_RESOLVECHECK_B2",
-            "TRINKET_MAXHP_D1"
+            "TRINKET_RESOLVECHECK_B2"
          ],
          "hero_class_requirements":
          [
@@ -1871,8 +1752,7 @@
          "buffs" : 
          [
             "TRINKET_TRAPRESIST_B1",
-            "TRINKET_DEF_B1",
-            "TRINKET_STRESSRECOVERY_D1"
+            "TRINKET_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -1887,9 +1767,7 @@
          "id" : "sly_eyepatch",
          "buffs" : 
          [
-            "TRINKET_DEF_B1",
-            "TRINKET_STUNRESIST_D1",
-            "TRINKET_MOVERESIST_D1"
+            "TRINKET_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -1919,8 +1797,7 @@
          "id" : "reckless_charm",
          "buffs" : 
          [
-            "TRINKET_reckless_charm_ACC_BUFF",
-            "TRINKET_reckless_charm_DODGE_DEBUFF"
+            "TRINKET_reckless_charm_ACC_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1950,8 +1827,7 @@
          "id" : "poisoned_herb",
          "buffs" : 
          [
-            "TRINKET_BLIGHTSKILL_B3",
-            "TRINKET_MAXHP_D1"
+            "TRINKET_BLIGHTSKILL_B3"
          ],
          "hero_class_requirements":
          [
@@ -1967,8 +1843,7 @@
          "buffs" : 
          [
             "TRINKET_FRONTRANK_DMGL_B1",
-            "TRINKET_FRONTRANK_DMGH_B1",
-            "TRINKET_RESOLVECHECK_D1"
+            "TRINKET_FRONTRANK_DMGH_B1"
          ],
          "hero_class_requirements":
          [
@@ -1984,8 +1859,7 @@
          "buffs" : 
          [
             "TRINKET_unholy_DMGL_B2",
-            "TRINKET_unholy_DMGH_B2",
-            "TRINKET_DEF_D1"
+            "TRINKET_unholy_DMGH_B2"
          ],
          "hero_class_requirements":
          [
@@ -2000,8 +1874,7 @@
          "buffs" : 
          [
             "TRINKET_BLIGHTRESIST_B1",
-            "TRINKET_BLEEDRESIST_B1",
-            "TRINKET_DISEASERESIST_D2"
+            "TRINKET_BLEEDRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2086,9 +1959,7 @@
          "id" : "cursed_buckle",
          "buffs" : 
          [
-            "TRINKET_CRIT_B2",
-            "TRINKET_STRESSDMG_D1",
-            "TRINKET_RESOLVECHECK_D1"
+            "TRINKET_CRIT_B2"
          ],
          "hero_class_requirements":
          [
@@ -2118,8 +1989,7 @@
          "id" : "evasion_incense",
          "buffs" : 
          [
-            "TRINKET_DEF_B2",
-            "TRINKET_SPD_D1"
+            "TRINKET_DEF_B2"
          ],
          "hero_class_requirements":
          [
@@ -2148,8 +2018,7 @@
          "id" : "rotgut_censer",
          "buffs" : 
          [
-            "TRINKET_ACC_B2",
-            "TRINKET_MAXHP_D1"
+            "TRINKET_ACC_B2"
          ],
          "hero_class_requirements":
          [
@@ -2198,8 +2067,7 @@
          "buffs" : 
          [
             "TRINKET_BLIGHTRESIST_B2",
-            "TRINKET_DISEASERESIST_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_DISEASERESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2229,8 +2097,7 @@
          "id" : "caution_cloak",
          "buffs" : 
          [
-            "TRINKET_SCOUTING_B1",
-            "TRINKET_firstroundonly_SPD_D1"
+            "TRINKET_SCOUTING_B1"
          ],
          "hero_class_requirements":
          [
@@ -2244,8 +2111,7 @@
          "id" : "bloody_dice",
          "buffs" : 
          [
-            "TRINKET_BLEEDSKILL_B2",
-            "TRINKET_BLEEDRESIST_D1"
+            "TRINKET_BLEEDSKILL_B2"
          ],
          "hero_class_requirements":
          [
@@ -2261,8 +2127,7 @@
          "buffs" : 
          [
             "TRINKET_man_DMGL_B2",
-            "TRINKET_man_DMGH_B2",
-            "TRINKET_DEF_D1"
+            "TRINKET_man_DMGH_B2"
          ],
          "hero_class_requirements":
          [
@@ -2277,8 +2142,7 @@
          "buffs" : 
          [
             "TRINKET_MOVERESIST_B2",
-            "TRINKET_MOVESKILL_B2",
-            "TRINKET_SPD_D1"
+            "TRINKET_MOVESKILL_B2"
          ],
          "hero_class_requirements":
          [
@@ -2294,8 +2158,7 @@
          "buffs" : 
          [
             "TRINKET_beast_DMGL_B2",
-            "TRINKET_beast_DMGH_B2",
-            "TRINKET_DEF_D1"
+            "TRINKET_beast_DMGH_B2"
          ],
          "hero_class_requirements":
          [
@@ -2389,8 +2252,7 @@
          "buffs" : 
          [
             "TRINKET_eldritch_DMGL_B2",
-            "TRINKET_eldritch_DMGH_B2",
-            "TRINKET_DEF_D1"
+            "TRINKET_eldritch_DMGH_B2"
          ],
          "hero_class_requirements":
          [
@@ -2404,8 +2266,7 @@
          "id" : "accuracy_stone",
          "buffs" : 
          [
-            "TRINKET_ACC_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -2419,8 +2280,7 @@
          "id" : "health_stone",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_MAXHP_B1"
          ],
          "hero_class_requirements":
          [
@@ -2434,8 +2294,7 @@
          "id" : "protection_stone",
          "buffs" : 
          [
-            "TRINKET_PROT_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_PROT_B1"
          ],
          "hero_class_requirements":
          [
@@ -2449,8 +2308,7 @@
          "id" : "dodge_stone",
          "buffs" : 
          [
-            "TRINKET_DEF_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -2464,8 +2322,7 @@
          "id" : "critical_stone",
          "buffs" : 
          [
-            "TRINKET_CRIT_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -2479,8 +2336,7 @@
          "id" : "bleed_stone",
          "buffs" : 
          [
-            "TRINKET_BLEEDSKILL_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_BLEEDSKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -2494,8 +2350,7 @@
          "id" : "bleed_charm",
          "buffs" : 
          [
-            "TRINKET_BLEEDRESIST_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_BLEEDRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2509,8 +2364,7 @@
          "id" : "stun_stone",
          "buffs" : 
          [
-            "TRINKET_STUNSKILL_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_STUNSKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -2524,8 +2378,7 @@
          "id" : "blight_stone",
          "buffs" : 
          [
-            "TRINKET_BLIGHTSKILL_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_BLIGHTSKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -2539,8 +2392,7 @@
          "id" : "stun_charm",
          "buffs" : 
          [
-            "TRINKET_STUNRESIST_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_STUNRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2554,8 +2406,7 @@
          "id" : "debuff_stone",
          "buffs" : 
          [
-            "TRINKET_DEBUFFSKILL_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_DEBUFFSKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -2569,8 +2420,7 @@
          "id" : "debuff_charm",
          "buffs" : 
          [
-            "TRINKET_DEBUFFRESIST_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_DEBUFFRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2584,8 +2434,7 @@
          "id" : "blight_charm",
          "buffs" : 
          [
-            "TRINKET_BLIGHTRESIST_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_BLIGHTRESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2599,8 +2448,7 @@
          "id" : "move_charm",
          "buffs" : 
          [
-            "TRINKET_MOVERESIST_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_MOVERESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2614,8 +2462,7 @@
          "id" : "move_stone",
          "buffs" : 
          [
-            "TRINKET_MOVESKILL_B1",
-            "TRINKET_SPD_D1"
+            "TRINKET_MOVESKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -2629,8 +2476,7 @@
          "id" : "disease_charm",
          "buffs" : 
          [
-            "TRINKET_DISEASERESIST_B1",
-            "TRINKET_DEF_D1"
+            "TRINKET_DISEASERESIST_B1"
          ],
          "hero_class_requirements":
          [
@@ -2675,8 +2521,7 @@
          "id" : "padlock_3",
          "buffs" : 
          [
-            "TRINKET_ABOM_PROT_BUFF",
-            "TRINKET_ABOM_SPEED_DEBUFF"
+            "TRINKET_ABOM_PROT_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -2693,8 +2538,7 @@
          [
             "TRINKET_ABOM_DMG_BUFF_L",
             "TRINKET_ABOM_DMG_BUFF_H",
-            "TRINKET_ABOM_SPD_BUFF",
-            "TRINKET_ABOM_HP_DEBUFF"
+            "TRINKET_ABOM_SPD_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -2740,8 +2584,7 @@
          "buffs" : 
          [
             "TRINKET_MAXHP_B2",
-            "TRINKET_DEF_B2",
-            "TRINKET_ACC_D1"
+            "TRINKET_DEF_B2"
          ],
          "hero_class_requirements":
          [
@@ -2757,8 +2600,7 @@
          [
             "TRINKET_SPD_B2",
             "TRINKET_DMGL_B2",
-            "TRINKET_DMGH_B2",
-            "TRINKET_STRESSDMG_D2"
+            "TRINKET_DMGH_B2"
          ],
          "hero_class_requirements":
          [
@@ -2773,9 +2615,7 @@
          "buffs" : 
          [
             "TRINKET_COLLECTOR_DMG_L",
-            "TRINKET_COLLECTOR_DMG_H",
-            "TRINKET_COLLECTOR_HP_DEBUFF",
-            "TRINKET_COLLECTOR_STRESSRESIST_DEBUFF"
+            "TRINKET_COLLECTOR_DMG_H"
          ],
          "hero_class_requirements":
          [
@@ -2789,8 +2629,7 @@
          "id" : "collector_2",
          "buffs" : 
          [
-            "TRINKET_COLLECTOR_PROT_BUFF",
-            "TRINKET_COLLECTOR_STRESSRESIST_DEBUFF"
+            "TRINKET_COLLECTOR_PROT_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -2804,8 +2643,7 @@
          "id" : "collector_3",
          "buffs" : 
          [
-            "TRINKET_COLLECTOR_HEAL_BUFF",
-            "TRINKET_COLLECTOR_STRESSRESIST_DEBUFF"
+            "TRINKET_COLLECTOR_HEAL_BUFF"
          ],
          "hero_class_requirements":
          [
