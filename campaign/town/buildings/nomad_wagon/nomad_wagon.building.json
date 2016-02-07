@@ -1,0 +1,51 @@
+{
+    "on_start_town_visit_priority" :  1,
+
+    "requirements":
+    {
+        "number_of_quests_finished": 0,
+        "highest_dungeon_level": 2
+    },
+
+	"data" :
+	{ 
+		"stores" : 
+		{
+			"trinket_supply" : 
+			{
+				"number_of_trinkets_upgrades" : 
+				[
+					{ "amount" : 2 },
+					{ "amount" : 4,     "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "a"  },
+					{ "amount" : 6,     "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "b"  },
+					{ "amount" : 8,     "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "c"  },
+					{ "amount" : 12,    "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "d"  }
+				],
+
+				"trinket_cost_discount_upgrades" : 
+				[
+					{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "a" },
+					{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "b" },
+					{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "c" },
+					{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "d" },
+					{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "e" }
+				],
+				
+				"trinket_sell_value_discount_upgrades" :
+				[
+					{ "discount_percent" : 0.85 }
+				],
+				
+				"rarity_generation_table" :
+				[
+					{ "rarity" : "very_common", "chance" : 1.0 },
+					{ "rarity" : "common", "chance" : 1.0 },
+					{ "rarity" : "uncommon", "chance" : 1.0 },
+					{ "rarity" : "rare", "chance" : 1.0 },
+					{ "rarity" : "very_rare", "chance" : 1.0 }
+				]
+			}
+		}
+
+	}
+}
