@@ -10,23 +10,23 @@ inventory_system_config:	.type "goal_starting_items"			.max_slots 99				.use_sta
 inventory_item:	.type "provision"		.id ""						.stack_limit 12		.purchase_gold_value 75			.sell_gold_value 5
 inventory_item:	.type "gold"			.id ""						.stack_limit 1500	.purchase_gold_value 0			.sell_gold_value 0
 
-inventory_item:	.type "heirloom"	.id "portrait"					.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "heirloom"	.id "bust"						.stack_limit 6		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "heirloom"	.id "crest"						.stack_limit 12		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "heirloom"	.id "deed"						.stack_limit 6		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "portrait"					.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "bust"						.stack_limit 8		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "crest"						.stack_limit 16		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "deed"						.stack_limit 8		.purchase_gold_value 0			.sell_gold_value 0
 inventory_item:	.type "heirloom"	.id "urn"						.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
 
-inventory_item:	.type "gem"			.id "ruby"						.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 1000
-inventory_item:	.type "gem"			.id "emerald"					.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 500
-inventory_item:	.type "gem"			.id "sapphire"					.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 1000
-inventory_item:	.type "gem"			.id "citrine"					.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 250
-inventory_item:	.type "gem"			.id "onyx"						.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 500
+inventory_item:	.type "gem"			.id "ruby"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 1000
+inventory_item:	.type "gem"			.id "emerald"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 500
+inventory_item:	.type "gem"			.id "sapphire"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 1000
+inventory_item:	.type "gem"			.id "citrine"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 400
+inventory_item:	.type "gem"			.id "onyx"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 500
 inventory_item:	.type "gem"			.id "pewrelic"					.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 1250
-inventory_item:	.type "gem"			.id "jade"						.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 250
-inventory_item:	.type "gem"			.id "trapezohedron"				.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 2500
+inventory_item:	.type "gem"			.id "jade"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 300
+inventory_item:	.type "gem"			.id "trapezohedron"		.stack_limit 2		.purchase_gold_value 0			.sell_gold_value 2500
 
 inventory_item:	.type "supply"		.id "shovel"					.stack_limit 4		.purchase_gold_value 250		.sell_gold_value 25
-inventory_item:	.type "supply"		.id "firewood"					.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "supply"		.id "firewood"					.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
 inventory_item:	.type "supply"		.id "bandage"					.stack_limit 6		.purchase_gold_value 150		.sell_gold_value 15
 inventory_item:	.type "supply"		.id "antivenom"					.stack_limit 6		.purchase_gold_value 150		.sell_gold_value 15
 inventory_item:	.type "supply"		.id "skeleton_key"				.stack_limit 6		.purchase_gold_value 200		.sell_gold_value 20
@@ -35,14 +35,14 @@ inventory_item:	.type "supply"		.id "torch"						.stack_limit 8		.purchase_gold_
 inventory_item:	.type "supply"		.id "holy_water"				.stack_limit 6		.purchase_gold_value 150		.sell_gold_value 15
 inventory_item: .type "supply"		.id "dog_treats"				.stack_limit 2		.purchase_gold_value 0			.sell_gold_value 0
 
-inventory_item:	.type "quest_item"	.id "holy_relic"				.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "grain_sack"				.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "medicines"					.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "holy_water"				.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "ancestors_crate"			.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "pickaxe"					.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "antivenom"					.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "eldritch_lantern"			.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
-inventory_item:	.type "quest_item"	.id "beacon_light"				.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "holy_relic"				.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "grain_sack"				.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "medicines"					.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "holy_water"				.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "ancestors_crate"			.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "pickaxe"					.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "antivenom"					.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "eldritch_lantern"			.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "quest_item"	.id "beacon_light"				.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
 
 
