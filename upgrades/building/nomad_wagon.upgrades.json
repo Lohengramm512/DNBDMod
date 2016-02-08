@@ -12,7 +12,7 @@
                "currency_cost" :
                [
                   { "type" : "gold", "amount" : 0},
-                  { "type" : "crest", "amount" : 17}
+                  { "type" : "crest", "amount" : 15}
                ],
                "prerequisite_requirements" :
                [
@@ -23,7 +23,7 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "crest", "amount" : 46}
+               { "type" : "crest", "amount" : 30}
             ],
             "prerequisite_requirements" :
             [
@@ -35,7 +35,7 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "crest", "amount" : 74}
+               { "type" : "crest", "amount" : 45}
             ],
             "prerequisite_requirements" :
             [
@@ -47,7 +47,7 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "crest", "amount" : 103}
+               { "type" : "crest", "amount" : 60}
             ],
             "prerequisite_requirements" :
             [
@@ -67,7 +67,7 @@
                "currency_cost" :
                [
                   { "type" : "gold", "amount" : 0},
-                  { "type" : "crest", "amount" : 14}
+                  { "type" : "crest", "amount" : 10}
                ],
                "prerequisite_requirements" :
                [
@@ -78,7 +78,7 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "crest", "amount" : 31}
+               { "type" : "crest", "amount" : 15}
             ],
             "prerequisite_requirements" :
             [
@@ -90,7 +90,7 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "crest", "amount" : 48}
+               { "type" : "crest", "amount" : 20}
             ],
             "prerequisite_requirements" :
             [
@@ -102,7 +102,7 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "crest", "amount" : 65}
+               { "type" : "crest", "amount" : 25}
             ],
             "prerequisite_requirements" :
             [
@@ -114,7 +114,7 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "crest", "amount" : 82}
+               { "type" : "crest", "amount" : 30}
             ],
             "prerequisite_requirements" :
             [

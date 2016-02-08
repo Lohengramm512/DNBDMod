@@ -50,7 +50,7 @@ tag: .id "non-religious"
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 2
 id_index: .index 13
-generation: .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7
+generation: .number_of_positive_quirks_min 0 .number_of_positive_quirks_max 1 .number_of_negative_quirks_min 0 .number_of_negative_quirks_max 1 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7
 skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
 mode: .id human .is_raid_default true
 mode: .id beast .bark_override_id str_beast_bark .affliction_combat_skill_id transform .battle_complete_combat_skill_id transform .stress_damage_per_turn 6
