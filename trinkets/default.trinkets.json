@@ -1727,8 +1727,9 @@
          "id" : "flashfire_gunpowder",
          "buffs" : 
          [
-            "TRINKET_DMGL_RANGED_B2",
-            "TRINKET_DMGH_RANGED_B2"
+            "TRINKET_DMGL_RANGED_B1",
+            "TRINKET_DMGH_RANGED_B1",
+			"TRINKET_rangedonly_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -1804,7 +1805,7 @@
          "id" : "reckless_charm",
          "buffs" : 
          [
-            "TRINKET_reckless_charm_ACC_BUFF"
+            "TRINKET_reckless_charm_ACC_BUFF",
             "TRINKET_DEF_D1"
          ],
          "hero_class_requirements":
@@ -2105,7 +2106,7 @@
          "id" : "caution_cloak",
          "buffs" : 
          [
-            "TRINKET_SCOUTING_B1"
+            "TRINKET_SCOUTING_B1",
             "TRINKET_DEF_B1"
          ],
          "hero_class_requirements":

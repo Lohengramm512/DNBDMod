@@ -425,7 +425,7 @@
 		{ 
 			"id" : "planned_takedown",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -484,7 +484,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "campingScoutingBuff",
-					"amount" :  0.35
+					"amount" :  0.40
 				}
 			],
 			"hero_classes" : ["bounty_hunter"],
@@ -540,7 +540,7 @@
 		{ 
 			"id" : "stand_tall",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -630,7 +630,7 @@
 		{ 
 			"id" : "zealous_vigil",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -814,7 +814,6 @@
 					"sub_type": "S",
 					"amount": 1
 				}			
-
 			],
 			"hero_classes" : ["grave_robber"],
 			"upgrade_requirements" :  	
@@ -863,30 +862,6 @@
 					"type" : "buff",
 					"sub_type" : "campingDMGHighBuffFrontRank",					
 					"amount" :  0.20
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "campingACCBuffNotFrontRank",					
-					"amount" :  -0.10
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "e", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "campingDMGLowBuffNotFrontRank",					
-					"amount" :  -0.15
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "f", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "campingDMGHighBuffNotFrontRank",					
-					"amount" :  -0.15
 				}
 			],
 			"hero_classes" : ["hellion"],
@@ -1080,7 +1055,7 @@
 		{ 
 			"id" : "uncatchable",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -1146,7 +1121,7 @@
 		{ 
 			"id" : "clean_guns",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -1253,7 +1228,7 @@
 		{ 
 			"id" : "maintain_equipment",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -1359,7 +1334,7 @@
 		{ 
 			"id" : "instruction",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -1498,7 +1473,7 @@
 		{ 
 			"id" : "dark_ritual",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -1605,7 +1580,7 @@
 		{ 
 			"id" : "unspeakable_commune",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -1646,7 +1621,7 @@
 		{ 
 			"id" : "experimental_vapours",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -1840,7 +1815,7 @@
 		{ 
 			"id" : "bless",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
