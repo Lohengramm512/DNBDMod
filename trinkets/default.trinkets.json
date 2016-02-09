@@ -812,7 +812,7 @@
          "id" : "bright_tambourine",
          "buffs" : 
          [
-            "TRINKET_bright_tambourine_lightabove_STRESSDMG_BUFF",
+			"TRINKET_bright_tambourine_lightabove_STRESSDMG_BUFF",
 			"TRINKET_bright_tambourine_STRESSHEALDONE_BUFF"
          ],
          "hero_class_requirements":
