@@ -306,8 +306,8 @@
          "id" : "spiked_collar",
          "buffs" : 
          [
-            "TRINKET_DMGL_B2",
-            "TRINKET_DMGH_B2",
+            "TRINKET_legendary_bracer_DMG_BUFF_L",
+            "TRINKET_legendary_bracer_DMG_BUFF_H"
             "TRINKET_BLEEDSKILL_B2"
          ],
          "hero_class_requirements":
@@ -340,8 +340,8 @@
          "id" : "wrathful_bandana",
          "buffs" : 
          [
-            "TRINKET_BACKRANK_DMGL_B2",
-            "TRINKET_BACKRANK_DMGH_B2",
+            "TRINKET_legendary_bracer_DMG_BUFF_L",
+            "TRINKET_legendary_bracer_DMG_BUFF_H"
             "TRINKET_DEBUFFSKILL_B2"
          ],
          "hero_class_requirements":
@@ -439,7 +439,8 @@
          "id" : "heros_ring",
          "buffs" : 
          [
-            "TRINKET_RESOLVECHECK_B3"
+            "TRINKET_RESOLVECHECK_B3",
+            "TRINKET_tough_ring_MAXHP_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -505,6 +506,7 @@
          [
             "TRINKET_DEATHBLOWRESIST_B3",
             "TRINKET_lightbelow_STRESSDMG_B3"
+            "TRINKET_BLEEDSKILL_B2"
          ],
          "hero_class_requirements":
          [
@@ -519,7 +521,8 @@
          "id" : "agile_talon",
          "buffs" : 
          [
-            "TRINKET_SPD_B2"
+            "TRINKET_SPD_B2",
+            "TRINKET_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -842,6 +845,7 @@
          "id" : "book_of_sanity",
          "buffs" : 
          [
+            "TRINKET_RESOLVECHECK_B2",
             "TRINKET_STRESSDMG_B3"
          ],
          "hero_class_requirements":
@@ -1287,7 +1291,7 @@
          "id" : "swift_cloak",
          "buffs" : 
          [
-            "TRINKET_SPD_B2"
+            "TRINKET_berserk_charm_SPD_BUFF",
          ],
          "hero_class_requirements":
          [
@@ -1406,7 +1410,7 @@
          "buffs" : 
          [
             "TRINKET_STRESSRECOVERYCAMPING_B3",
-            "TRINKET_SCOUTING_B1"
+            "TRINKET_SCOUTING_B2"
          ],
          "hero_class_requirements":
          [
@@ -1451,6 +1455,7 @@
          "id" : "solar_crown",
          "buffs" : 
          [
+            "TRINKET_lightabove_CRIT_B1",
             "TRINKET_lightabove_STRESSDMG_B1"
          ],
          "hero_class_requirements":
@@ -1542,7 +1547,8 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_DMGL_B1",
-            "TRINKET_meleeonly_DMGH_B1"
+            "TRINKET_meleeonly_DMGH_B1",
+			"TRINKET_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -1602,7 +1608,8 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_DMGL_B2",
-            "TRINKET_meleeonly_DMGH_B2"
+            "TRINKET_meleeonly_DMGH_B2",
+            "TRINKET_hunters_talon_CRIT_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1623,7 +1630,7 @@
          "hero_class_requirements":
          [
          ],
-         "rarity" : "common",
+         "rarity" : "uncommon",
          "price" : 7500,
          "limit" : 0,
          "origin_dungeon" : ""
@@ -1720,8 +1727,8 @@
          "id" : "flashfire_gunpowder",
          "buffs" : 
          [
-            "TRINKET_DMGL_RANGED_B1",
-            "TRINKET_DMGH_RANGED_B1"
+            "TRINKET_DMGL_RANGED_B2",
+            "TRINKET_DMGH_RANGED_B2"
          ],
          "hero_class_requirements":
          [
@@ -1798,6 +1805,7 @@
          "buffs" : 
          [
             "TRINKET_reckless_charm_ACC_BUFF"
+			"TRINKET_DEF_D1"
          ],
          "hero_class_requirements":
          [
@@ -1945,7 +1953,7 @@
          "id" : "speed_stone",
          "buffs" : 
          [
-            "TRINKET_SPD_B1"
+            "TRINKET_SPD_B2"
          ],
          "hero_class_requirements":
          [
@@ -2098,6 +2106,7 @@
          "buffs" : 
          [
             "TRINKET_SCOUTING_B1"
+			"TRINKET_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -2569,7 +2578,8 @@
          "id" : "madman_1",
          "buffs" : 
          [
-            "TRINKET_MADMAN_STRESSRESIST_BUFF"
+            "TRINKET_MADMAN_STRESSRESIST_BUFF",
+            "TRINKET_RESOLVECHECK_B2",
          ],
          "hero_class_requirements":
          [
@@ -2630,6 +2640,7 @@
          "buffs" : 
          [
             "TRINKET_COLLECTOR_PROT_BUFF"
+		    "TRINKET_MAXHP_B3"
          ],
          "hero_class_requirements":
          [

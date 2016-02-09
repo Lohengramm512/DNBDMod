@@ -33,7 +33,7 @@ inventory_item:	.type "supply"		.id "skeleton_key"				.stack_limit 6		.purchase_
 inventory_item:	.type "supply"		.id "medicinal_herbs"			.stack_limit 6		.purchase_gold_value 200		.sell_gold_value 20
 inventory_item:	.type "supply"		.id "torch"						.stack_limit 8		.purchase_gold_value 75			.sell_gold_value 5
 inventory_item:	.type "supply"		.id "holy_water"				.stack_limit 6		.purchase_gold_value 150		.sell_gold_value 15
-inventory_item: .type "supply"		.id "dog_treats"				.stack_limit 2		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item: .type "supply"		.id "dog_treats"				.stack_limit 6		.purchase_gold_value 0			.sell_gold_value 0
 
 inventory_item:	.type "quest_item"	.id "holy_relic"				.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
 inventory_item:	.type "quest_item"	.id "grain_sack"				.stack_limit 3		.purchase_gold_value 0			.sell_gold_value 0
