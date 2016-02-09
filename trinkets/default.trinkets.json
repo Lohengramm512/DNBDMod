@@ -307,7 +307,7 @@
          "buffs" : 
          [
             "TRINKET_legendary_bracer_DMG_BUFF_L",
-            "TRINKET_legendary_bracer_DMG_BUFF_H"
+            "TRINKET_legendary_bracer_DMG_BUFF_H",
             "TRINKET_BLEEDSKILL_B2"
          ],
          "hero_class_requirements":
@@ -341,7 +341,7 @@
          "buffs" : 
          [
             "TRINKET_legendary_bracer_DMG_BUFF_L",
-            "TRINKET_legendary_bracer_DMG_BUFF_H"
+            "TRINKET_legendary_bracer_DMG_BUFF_H",
             "TRINKET_DEBUFFSKILL_B2"
          ],
          "hero_class_requirements":
@@ -505,7 +505,7 @@
          "buffs" : 
          [
             "TRINKET_DEATHBLOWRESIST_B3",
-            "TRINKET_lightbelow_STRESSDMG_B3"
+            "TRINKET_lightbelow_STRESSDMG_B3",
             "TRINKET_BLEEDSKILL_B2"
          ],
          "hero_class_requirements":
