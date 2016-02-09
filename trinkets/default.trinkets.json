@@ -812,8 +812,8 @@
          "id" : "bright_tambourine",
          "buffs" : 
          [
-			"TRINKET_bright_tambourine_lightabove_STRESSDMG_BUFF",
-			"TRINKET_bright_tambourine_STRESSHEALDONE_BUFF"
+            "TRINKET_bright_tambourine_lightabove_STRESSDMG_BUFF",
+            "TRINKET_bright_tambourine_STRESSHEALDONE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1291,7 +1291,7 @@
          "id" : "swift_cloak",
          "buffs" : 
          [
-            "TRINKET_berserk_charm_SPD_BUFF",
+            "TRINKET_berserk_charm_SPD_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -1548,7 +1548,7 @@
          [
             "TRINKET_meleeonly_DMGL_B1",
             "TRINKET_meleeonly_DMGH_B1",
-			"TRINKET_ACC_B1"
+            "TRINKET_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -1630,7 +1630,7 @@
          "hero_class_requirements":
          [
          ],
-         "rarity" : "uncommon",
+         "rarity" : "common",
          "price" : 7500,
          "limit" : 0,
          "origin_dungeon" : ""
@@ -1805,7 +1805,7 @@
          "buffs" : 
          [
             "TRINKET_reckless_charm_ACC_BUFF"
-			"TRINKET_DEF_D1"
+            "TRINKET_DEF_D1"
          ],
          "hero_class_requirements":
          [
@@ -2106,7 +2106,7 @@
          "buffs" : 
          [
             "TRINKET_SCOUTING_B1"
-			"TRINKET_DEF_B1"
+            "TRINKET_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -2579,7 +2579,7 @@
          "buffs" : 
          [
             "TRINKET_MADMAN_STRESSRESIST_BUFF",
-            "TRINKET_RESOLVECHECK_B2",
+            "TRINKET_RESOLVECHECK_B2"
          ],
          "hero_class_requirements":
          [
@@ -2639,8 +2639,8 @@
          "id" : "collector_2",
          "buffs" : 
          [
-            "TRINKET_COLLECTOR_PROT_BUFF"
-		    "TRINKET_MAXHP_B3"
+            "TRINKET_COLLECTOR_PROT_BUFF",
+            "TRINKET_MAXHP_B3"
          ],
          "hero_class_requirements":
          [
