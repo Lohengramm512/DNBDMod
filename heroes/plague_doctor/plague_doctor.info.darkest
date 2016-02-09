@@ -14,11 +14,11 @@ combat_skill: .id "noxious_blast" .level 1 .type "ranged" .atk 100% .dmg -80% .c
 combat_skill: .id "noxious_blast" .level 2 .type "ranged" .atk 105% .dmg -80% .crit 3% .launch 432 .target 1234 .is_crit_valid True  .effect "PD Single Blight 3"
 combat_skill: .id "noxious_blast" .level 3 .type "ranged" .atk 110% .dmg -80% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "PD Single Blight 4"
 combat_skill: .id "noxious_blast" .level 4 .type "ranged" .atk 115% .dmg -80% .crit 4% .launch 432 .target 1234 .is_crit_valid True  .effect "PD Single Blight 5"
-combat_skill: .id "plague_grenade" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 43 .target ~34 .is_crit_valid True  .effect "PD Blight 1" .generation_guaranteed true
-combat_skill: .id "plague_grenade" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 43 .target ~34 .is_crit_valid True  .effect "PD Blight 2"
-combat_skill: .id "plague_grenade" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 1% .launch 43 .target ~34 .is_crit_valid True  .effect "PD Blight 3"
-combat_skill: .id "plague_grenade" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 2% .launch 43 .target ~34 .is_crit_valid True  .effect "PD Blight 4"
-combat_skill: .id "plague_grenade" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 2% .launch 43 .target ~34 .is_crit_valid True  .effect "PD Blight 5"
+combat_skill: .id "plague_grenade" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 0% .launch 43 .target ~1234 .is_crit_valid True  .effect "Plague 1" .generation_guaranteed true
+combat_skill: .id "plague_grenade" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 43 .target ~1234 .is_crit_valid True  .effect "Plague 2"
+combat_skill: .id "plague_grenade" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 1% .launch 43 .target ~1234 .is_crit_valid True  .effect "Plague 3"
+combat_skill: .id "plague_grenade" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 2% .launch 43 .target ~1234 .is_crit_valid True  .effect "Plague 4"
+combat_skill: .id "plague_grenade" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 2% .launch 43 .target ~1234 .is_crit_valid True  .effect "Plague 5"
 combat_skill: .id "blinding_gas" .level 0 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 43 .target ~34 .is_crit_valid False  .effect "Stun 1"
 combat_skill: .id "blinding_gas" .level 1 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 43 .target ~34 .is_crit_valid False  .effect "Stun 2"
 combat_skill: .id "blinding_gas" .level 2 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 43 .target ~34 .is_crit_valid False  .effect "Stun 3"

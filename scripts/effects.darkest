@@ -647,11 +647,11 @@ effect: .name "Finish Off 5"	.target "performer" .chance 100%	.curio_result_type
 
 
 //Zealous Accusation
-effect: .name "Zealous Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -5.0% .crit_chance_add -3%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -6.0% .crit_chance_add -3%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -7.0% .crit_chance_add -4%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -8.0% .crit_chance_add -4%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 5" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -10.0% .crit_chance_add -5%	.on_hit true .on_miss false .queue true
+effect: .name "Zealous Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -5.0% .crit_chance_add -3%	.on_hit true .on_miss false .queue true
+effect: .name "Zealous Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -6.0% .crit_chance_add -3%	.on_hit true .on_miss false .queue true
+effect: .name "Zealous Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -7.0% .crit_chance_add -4%	.on_hit true .on_miss false .queue true
+effect: .name "Zealous Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -8.0% .crit_chance_add -4%	.on_hit true .on_miss false .queue true
+effect: .name "Zealous Debuff 5" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -10.0% .crit_chance_add -5%	.on_hit true .on_miss false .queue true
 
 //Stunning Blow
 
@@ -663,11 +663,11 @@ effect: .name "Crusader Bulwark 3" .target "performer" .curio_result_type "posit
 effect: .name "Crusader Bulwark 4" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 1 .combat_stat_buff 1 .protection_rating_add 36%	.on_hit true .on_miss true .queue true
 effect: .name "Crusader Bulwark 5" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 1 .combat_stat_buff 1 .protection_rating_add 40%	.on_hit true .on_miss true .queue true
 
-effect: .name "Team Bulwark 1" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 10%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 2" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 12%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 3" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 14%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 4" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 17%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 5" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "Team Bulwark 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "Team Bulwark 2" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 12%	.on_hit true .on_miss true .queue true
+effect: .name "Team Bulwark 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 14%	.on_hit true .on_miss true .queue true
+effect: .name "Team Bulwark 4" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 17%	.on_hit true .on_miss true .queue true
+effect: .name "Team Bulwark 5" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
 
 //Battle Heal
 
@@ -1091,7 +1091,12 @@ effect: .name "Occ Vulnerability Curse 5" .target "target" .curio_result_type "n
 
 
 //Plague Grenade
-
+//Weak Blight
+effect: .name "Plague 1" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .damage_low_multiply -10% .damage_high_multiply -10% .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Plague 2" .target "target" .curio_result_type "negative" .chance 110%  .combat_stat_buff 1 .damage_low_multiply -12% .damage_high_multiply -12% .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Plague 3" .target "target" .curio_result_type "negative" .chance 120%  .combat_stat_buff 1 .damage_low_multiply -14% .damage_high_multiply -14% .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Plague 4" .target "target" .curio_result_type "negative" .chance 130%  .combat_stat_buff 1 .damage_low_multiply -17% .damage_high_multiply -17% .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Plague 5" .target "target" .curio_result_type "negative" .chance 140%  .combat_stat_buff 1 .damage_low_multiply -20% .damage_high_multiply -20% .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true 
 
 //Blinding Gas
 
@@ -1107,7 +1112,7 @@ effect: .name "PD Vapours Buff 1" .target "target" .curio_result_type "positive"
 effect: .name "PD Vapours Buff 2" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 12% .damage_high_multiply 12% .speed_rating_add 1	.on_hit true .on_miss false
 effect: .name "PD Vapours Buff 3" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 14% .damage_high_multiply 14% .speed_rating_add 2	.on_hit true .on_miss false
 effect: .name "PD Vapours Buff 4" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .speed_rating_add 2	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 5" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .speed_rating_add 3	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 5" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .speed_rating_add 2	.on_hit true .on_miss false
 
 //Disorienting Blast
 effect: .name "PD Disorienting Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
@@ -1123,11 +1128,11 @@ effect: .name "PD Blight 3" .target "target" .curio_result_type "negative" .chan
 effect: .name "PD Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "PD Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "PD Single Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PD Single Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PD Single Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PD Single Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PD Single Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PD Single Blight 1" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PD Single Blight 2" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PD Single Blight 3" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PD Single Blight 4" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PD Single Blight 5" .target "target" .curio_result_type "negative" .chance 150%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
 //-------------------------
 
