@@ -14,22 +14,22 @@ combat_skill: .id "chop" .level 1 .type "melee" .atk 80% .dmg 0% .crit 2% .launc
 combat_skill: .id "chop" .level 2 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 12 .target 12 .is_crit_valid True 
 combat_skill: .id "chop" .level 3 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 12 .target 12 .is_crit_valid True 
 combat_skill: .id "chop" .level 4 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 12 .target 12 .is_crit_valid True 
-combat_skill: .id "hew" .level 0 .type "melee" .atk 75% .dmg -40% .crit 2% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 1 .type "melee" .atk 80% .dmg -40% .crit 2% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 2 .type "melee" .atk 85% .dmg -40% .crit 3% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 3 .type "melee" .atk 90% .dmg -40% .crit 4% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "hew" .level 4 .type "melee" .atk 95% .dmg -40% .crit 4% .move 0 1 .launch 123 .target ~12 .is_crit_valid True 
-combat_skill: .id "focus" .level 0 .type "melee" .atk 85% .dmg -50% .crit 0% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3A" "clear_corpses"
-combat_skill: .id "focus" .level 1 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3B" "clear_corpses"
-combat_skill: .id "focus" .level 2 .type "melee" .atk 95% .dmg -50% .crit 1% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3C" "clear_corpses"
-combat_skill: .id "focus" .level 3 .type "melee" .atk 100% .dmg -50% .crit 2% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3D" "clear_corpses"
-combat_skill: .id "focus" .level 4 .type "melee" .atk 105% .dmg -50% .crit 2% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3E" "clear_corpses"
-combat_skill: .id "revenge" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 1" "Leper Vulnerability" "Mark performer"
-combat_skill: .id "revenge" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 2" "Leper Vulnerability" "Mark performer"
-combat_skill: .id "revenge" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 3" "Leper Vulnerability" "Mark performer"
-combat_skill: .id "revenge" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 4" "Leper Vulnerability" "Mark performer"
-combat_skill: .id "revenge" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 5" "Leper Vulnerability" "Mark performer"
-combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+combat_skill: .id "hew" .level 0 .type "melee" .atk 75% .dmg -40% .crit 2% .launch 12 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 1 .type "melee" .atk 80% .dmg -40% .crit 2% .launch 12 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 2 .type "melee" .atk 85% .dmg -40% .crit 3% .launch 12 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 3 .type "melee" .atk 90% .dmg -40% .crit 4% .launch 12 .target ~12 .is_crit_valid True 
+combat_skill: .id "hew" .level 4 .type "melee" .atk 95% .dmg -40% .crit 4% .launch 12 .target ~12 .is_crit_valid True 
+combat_skill: .id "focus" .level 0 .type "melee" .atk 85% .dmg -90% .crit 0% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3A" "clear_corpses"
+combat_skill: .id "focus" .level 1 .type "melee" .atk 90% .dmg -90% .crit 0% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3B" "clear_corpses"
+combat_skill: .id "focus" .level 2 .type "melee" .atk 95% .dmg -90% .crit 1% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3C" "clear_corpses"
+combat_skill: .id "focus" .level 3 .type "melee" .atk 100% .dmg -90% .crit 2% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3D" "clear_corpses"
+combat_skill: .id "focus" .level 4 .type "melee" .atk 105% .dmg -90% .crit 2% .launch 12 .target 1 .is_crit_valid True  .effect "Push 3E" "clear_corpses"
+combat_skill: .id "revenge" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 1" "Leper Vulnerability"
+combat_skill: .id "revenge" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 2" "Leper Vulnerability"
+combat_skill: .id "revenge" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 3" "Leper Vulnerability"
+combat_skill: .id "revenge" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 4" "Leper Vulnerability"
+combat_skill: .id "revenge" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "Leper Strength 5" "Leper Vulnerability"
+combat_move_skill: .id "move" .level 0 .type "move" .move 0 1 .launch 4321
 combat_skill: .id "withstand" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "LeperHealSelfStress 1" "Leper Protect 1"
 combat_skill: .id "withstand" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "LeperHealSelfStress 2" "Leper Protect 2"
 combat_skill: .id "withstand" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target  .is_crit_valid True  .effect "LeperHealSelfStress 3" "Leper Protect 3"
@@ -50,5 +50,5 @@ tag: .id "religious"
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 1
 id_index: .index 9
-generation: .number_of_positive_quirks_min 0 .number_of_positive_quirks_max 1 .number_of_negative_quirks_min 0 .number_of_negative_quirks_max 1 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4
+generation: .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4

@@ -352,8 +352,6 @@ effect: .name "Cureself" .target "performer" .curio_result_type "positive" .chan
 //-------------------------
 effect: .name "Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
 
-effect: .name "Long Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss false
-
 effect: .name "Mark performer" .target "performer" .chance 100%	.tag 1  .duration 3 .on_hit true .on_miss true .queue true
 
 effect: .name "Mark Self" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .combat_stat_buff 1 .duration 1 .on_hit true .on_miss true .queue true
@@ -541,11 +539,11 @@ effect: .name "beast_stress_5"	.target "performer" .chance 100% .stress 5  .on_h
 //Arbalest Effects
 //-------------------------
 //Sniper Shot
-effect: .name "Sniper Damage 1".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 30%  .damage_high_multiply 30% .crit_chance_add 5%	 .on_hit true .on_miss false
-effect: .name "Sniper Damage 2".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 35%  .damage_high_multiply 35% .crit_chance_add 6%	 .on_hit true .on_miss false
-effect: .name "Sniper Damage 3".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 40%  .damage_high_multiply 40% .crit_chance_add 7%	 .on_hit true .on_miss false
-effect: .name "Sniper Damage 4".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 45%  .damage_high_multiply 45% .crit_chance_add 8%	 .on_hit true .on_miss false
-effect: .name "Sniper Damage 5".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50% .crit_chance_add 10%	 .on_hit true .on_miss false
+effect: .name "Sniper Damage 1".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50% .crit_chance_add 5%	 .on_hit true .on_miss false
+effect: .name "Sniper Damage 2".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 60%  .damage_high_multiply 60% .crit_chance_add 6%	 .on_hit true .on_miss false
+effect: .name "Sniper Damage 3".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 70%  .damage_high_multiply 70% .crit_chance_add 7%	 .on_hit true .on_miss false
+effect: .name "Sniper Damage 4".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 80%  .damage_high_multiply 80% .crit_chance_add 8%	 .on_hit true .on_miss false
+effect: .name "Sniper Damage 5".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 100%  .damage_high_multiply 100% .crit_chance_add 10%	 .on_hit true .on_miss false
 
 //Suppressing Fire
 effect: .name "Suppression 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .attack_rating_add -5% .crit_chance_add -5%	.on_hit true .on_miss false
@@ -555,7 +553,7 @@ effect: .name "Suppression 4" .target "target" .curio_result_type "negative" .ch
 effect: .name "Suppression 5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .attack_rating_add -10% .crit_chance_add -10%	.on_hit true .on_miss false
 
 //Sniper's Mark
-effect: .name "Arb Mark Target".target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss false
+effect: .name "Arb Mark Target".target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
 
 effect: .name "Arb Mark Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .defense_rating_add -20% .on_hit true .on_miss false .queue true
 effect: .name "Arb Mark Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .defense_rating_add -22% .on_hit true .on_miss false .queue true
@@ -571,11 +569,11 @@ effect: .name "Bolo Push 1D" .target "target"  .push 1 .chance 105%   .on_hit tr
 effect: .name "Bolo Push 1E" .target "target"  .push 1 .chance 115%   .on_hit true .on_miss false .can_apply_on_death true
 
 //Blindfire
-effect: .name "Arb Self Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Arb Self Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Arb Self Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Arb Self Speed 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Arb Self Speed 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 5	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Arb Self Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 5	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Arb Self Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 6	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Arb Self Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 7	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Arb Self Speed 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 8	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Arb Self Speed 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 9	.on_hit true .on_miss false .queue true .apply_once true
 
 //Battlefield Bandage
 effect: .name "Arb Stacking Heal 1" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 20%  .on_hit true .on_miss true	.queue true
@@ -598,22 +596,16 @@ effect: .name "FlareBuff 2" .target "target" .curio_result_type "positive" .chan
 effect: .name "FlareBuff 3" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARBFlareDebuffResistance3" .on_hit true .on_miss true .queue true
 effect: .name "FlareBuff 4" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARBFlareDebuffResistance4" .on_hit true .on_miss true .queue true
 effect: .name "FlareBuff 5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARBFlareDebuffResistance5" .on_hit true .on_miss true .queue true
-
-effect: .name "FlareStress 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 2 2 .on_hit true .on_miss false .queue true
-effect: .name "FlareStress 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 2 3 .on_hit true .on_miss false .queue true
-effect: .name "FlareStress 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 3 3 .on_hit true .on_miss false .queue true
-effect: .name "FlareStress 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 3 4 .on_hit true .on_miss false .queue true
-effect: .name "FlareStress 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 4 4 .on_hit true .on_miss false .queue true
 //-------------------------
 
 
 //Bounty Hunter
 //-------------------------
 //Collect Bounty
-effect: .name "BH Dmg Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 50%	.damage_high_multiply 50% .attack_rating_add 10%	.on_hit true .on_miss false
+effect: .name "BH Dmg Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 90%	.damage_high_multiply 90%	.on_hit true .on_miss false
 
 //Mark for Death
-effect: .name "BH Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss false
+effect: .name "BH Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
 
 effect: .name "BH Mark Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add -10.0%	.on_hit true .on_miss false .queue true
 effect: .name "BH Mark Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .protection_rating_add -12.5%	.on_hit true .on_miss false .queue true
@@ -622,7 +614,7 @@ effect: .name "BH Mark Debuff 4" .target "target" .curio_result_type "negative" 
 effect: .name "BH Mark Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .protection_rating_add -20.0%	.on_hit true .on_miss false .queue true
 
 //Come Hither
-effect: .name "BH Mark Short"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
+
 
 //Uppercut
 
@@ -631,11 +623,7 @@ effect: .name "BH Mark Short"	.target "target" .curio_result_type "positive" .ch
 
 
 //Finish Him
-effect: .name "Finish Off 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 50% .damage_high_multiply 50%	.on_hit true .on_miss false
-effect: .name "Finish Off 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 55% .damage_high_multiply 55%	.on_hit true .on_miss false
-effect: .name "Finish Off 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 60% .damage_high_multiply 60%	.on_hit true .on_miss false
-effect: .name "Finish Off 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 65% .damage_high_multiply 65%	.on_hit true .on_miss false
-effect: .name "Finish Off 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 70% .damage_high_multiply 70%	.on_hit true .on_miss false
+
 
 //Hook and Slice
 
@@ -647,11 +635,7 @@ effect: .name "Finish Off 5"	.target "performer" .chance 100%	.curio_result_type
 
 
 //Zealous Accusation
-effect: .name "Zealous Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -5.0% .crit_chance_add -3%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -6.0% .crit_chance_add -3%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -7.0% .crit_chance_add -4%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -8.0% .crit_chance_add -4%	.on_hit true .on_miss false .queue true
-effect: .name "Zealous Debuff 5" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -10.0% .crit_chance_add -5%	.on_hit true .on_miss false .queue true
+
 
 //Stunning Blow
 
@@ -662,12 +646,6 @@ effect: .name "Crusader Bulwark 2" .target "performer" .curio_result_type "posit
 effect: .name "Crusader Bulwark 3" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 1 .combat_stat_buff 1 .protection_rating_add 32%	.on_hit true .on_miss true .queue true
 effect: .name "Crusader Bulwark 4" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 1 .combat_stat_buff 1 .protection_rating_add 36%	.on_hit true .on_miss true .queue true
 effect: .name "Crusader Bulwark 5" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 1 .combat_stat_buff 1 .protection_rating_add 40%	.on_hit true .on_miss true .queue true
-
-effect: .name "Team Bulwark 1" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 10%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 2" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 12%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 3" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 14%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 4" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 17%	.on_hit true .on_miss true .queue true
-effect: .name "Team Bulwark 5" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
 
 //Battle Heal
 
@@ -750,7 +728,7 @@ effect: .name "GR Self Speed 5" .target "performer" .curio_result_type "positive
 //Hellion
 //-------------------------
 //**Exhaust**
-effect: .name "Hellion Exhaust" .target "performer" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .duration 2 .defense_rating_add -10% .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "Hellion Exhaust" .target "performer" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .damage_low_multiply -20% .damage_high_multiply -20% .defense_rating_add -15% .apply_once true .on_hit true .on_miss true .queue true
 
 //Wicked Hack
 
@@ -762,23 +740,23 @@ effect: .name "Hellion Exhaust" .target "performer" .curio_result_type "negative
 
 
 //If It Bleeds
-effect: .name "Hellion BleedKiller"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 66%	.damage_high_multiply 66% .crit_chance_add 8%	.on_hit true .on_miss false
+
 
 //Breakthrough
 
 
 //Adrenaline Rush
-effect: .name "Adrenaline 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 5% .speed_rating_add 3 .on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 6% .speed_rating_add 3 .on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 7% .speed_rating_add 4 .on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 8%  .speed_rating_add 4 .on_hit true .on_miss true .queue true
-effect: .name "Adrenaline 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .speed_rating_add 5 .on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 1" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 5% .damage_low_multiply 20% .damage_high_multiply 20%	.on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 2" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 6% .damage_low_multiply 22% .damage_high_multiply 22%	.on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 3" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 7% .damage_low_multiply 24% .damage_high_multiply 24%	.on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 4" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 8% .damage_low_multiply 26% .damage_high_multiply 26%	.on_hit true .on_miss true .queue true
+effect: .name "Adrenaline 5" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .combat_stat_buff 1 .attack_rating_add 9% .damage_low_multiply 28% .damage_high_multiply 28%	.on_hit true .on_miss true .queue true
 
-effect: .name "HellionHealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false .queue false
-effect: .name "HellionHealSelf 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 10	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 1	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 2	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 3	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue false
+effect: .name "HellionHealSelf 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue false
 
 //Bleed Out
 
@@ -788,11 +766,7 @@ effect: .name "HellionHealSelf 5" .target "performer" .curio_result_type "positi
 //Highwayman
 //-------------------------
 //Wicked Slice
-effect: .name "Wicked Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add -10.0%	.on_hit true .on_miss false .queue true
-effect: .name "Wicked Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 2 .combat_stat_buff 1 .protection_rating_add -12.0%	.on_hit true .on_miss false .queue true
-effect: .name "Wicked Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 2 .combat_stat_buff 1 .protection_rating_add -14.0%	.on_hit true .on_miss false .queue true
-effect: .name "Wicked Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 2 .combat_stat_buff 1 .protection_rating_add -17.0%	.on_hit true .on_miss false .queue true
-effect: .name "Wicked Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 2 .combat_stat_buff 1 .protection_rating_add -20.0%	.on_hit true .on_miss false .queue true
+
 
 //Pistol Shot
 effect: .name "Highwayman Pistol Dmg Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
@@ -810,21 +784,10 @@ effect: .name "Highwayman Buff 3" .target "performer" .curio_result_type "positi
 effect: .name "Highwayman Buff 4" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 9%  .crit_chance_add 8% .damage_low_multiply 18% .damage_high_multiply 18%  .on_hit true .on_miss true
 effect: .name "Highwayman Buff 5" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 10% .crit_chance_add 9% .damage_low_multiply 20% .damage_high_multiply 20%  .on_hit true .on_miss true
 
-effect: .name "Tracking Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -3 .on_hit true .on_miss false .queue true
-effect: .name "Tracking Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .defense_rating_add -11% .speed_rating_add -3 .on_hit true .on_miss false .queue true
-effect: .name "Tracking Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .defense_rating_add -12% .speed_rating_add -4 .on_hit true .on_miss false .queue true
-effect: .name "Tracking Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .defense_rating_add -13% .speed_rating_add -4 .on_hit true .on_miss false .queue true
-effect: .name "Tracking Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .defense_rating_add -15% .speed_rating_add -5 .on_hit true .on_miss false .queue true
-
 //Duelist's Advance
-effect: .name "Speed Burst" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .duration 1 .speed_rating_add 2 .on_hit true .on_miss true
+
 
 //Open Vein
-effect: .name "HWM Bleed Debuff 1" .target "target" .chance 100% .duration 2 .buff_ids bleed_debuff_1 .on_hit true .on_miss false
-effect: .name "HWM Bleed Debuff 2" .target "target" .chance 110% .duration 2 .buff_ids bleed_debuff_2 .on_hit true .on_miss false
-effect: .name "HWM Bleed Debuff 3" .target "target" .chance 120% .duration 2 .buff_ids bleed_debuff_3 .on_hit true .on_miss false
-effect: .name "HWM Bleed Debuff 4" .target "target" .chance 130% .duration 2 .buff_ids bleed_debuff_4 .on_hit true .on_miss false
-effect: .name "HWM Bleed Debuff 5" .target "target" .chance 140% .duration 2 .buff_ids bleed_debuff_5 .on_hit true .on_miss false
 
 //-------------------------
 
@@ -832,20 +795,17 @@ effect: .name "HWM Bleed Debuff 5" .target "target" .chance 140% .duration 2 .bu
 //Houndmaster
 //-------------------------
 //Hound's Rush
-effect: .name "HM Dmg Marked 1".target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 30%  .damage_high_multiply 30%  .on_hit true .on_miss false
-effect: .name "HM Dmg Marked 2".target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 35%  .damage_high_multiply 35%	.on_hit true .on_miss false
-effect: .name "HM Dmg Marked 3".target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 40%  .damage_high_multiply 40%  .on_hit true .on_miss false
-effect: .name "HM Dmg Marked 4".target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 45%  .damage_high_multiply 45%  .on_hit true .on_miss false
-effect: .name "HM Dmg Marked 5".target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "HM Dmg Marked 1".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 60%  .damage_high_multiply 60%  .on_hit true .on_miss false
+effect: .name "HM Dmg Marked 2".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 70%  .damage_high_multiply 70%	.on_hit true .on_miss false
+effect: .name "HM Dmg Marked 3".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 80%  .damage_high_multiply 80%  .on_hit true .on_miss false
+effect: .name "HM Dmg Marked 4".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 90%  .damage_high_multiply 90%  .on_hit true .on_miss false
+effect: .name "HM Dmg Marked 5".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 100%  .damage_high_multiply 100% .on_hit true .on_miss false
 
 //Hound's Harry
-effect: .name "Hound Slow 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1  .speed_rating_add -2 	.on_hit true .on_miss false
-effect: .name "Hound Slow 2" .target "target" .curio_result_type "negative" .chance 110% .duration 2 .combat_stat_buff 1  .speed_rating_add -2 	.on_hit true .on_miss false
-effect: .name "Hound Slow 3" .target "target" .curio_result_type "negative" .chance 120% . duration 2 .combat_stat_buff 1  .speed_rating_add -2 	.on_hit true .on_miss false
-effect: .name "Hound Slow 4" .target "target" .curio_result_type "negative" .chance 130% . duration 2 .combat_stat_buff 1  .speed_rating_add -3 	.on_hit true .on_miss false
-effect: .name "Hound Slow 5" .target "target" .curio_result_type "negative" .chance 140% . duration 2 .combat_stat_buff 1  .speed_rating_add -3 	.on_hit true .on_miss false
+
+
 //Target Whistle
-effect: .name "HM Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss false
+effect: .name "HM Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
 
 effect: .name "Hound Debuff 1" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1  .protection_rating_add -20% 	.on_hit true .on_miss false
 effect: .name "Hound Debuff 2" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1  .protection_rating_add -22% 	.on_hit true .on_miss false
@@ -854,11 +814,11 @@ effect: .name "Hound Debuff 4" .target "target" .curio_result_type "negative" .c
 effect: .name "Hound Debuff 5" .target "target" .curio_result_type "negative" .chance 170% .combat_stat_buff 1  .protection_rating_add -30% 	.on_hit true .on_miss false
 
 // Cry Havoc
-effect: .name "Hound Howl 1" .target "target" .curio_result_type "positive" .healstress 2 .on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 2" .target "target" .curio_result_type "positive" .healstress 2 .on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 3" .target "target" .curio_result_type "positive" .healstress 3 .on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 4" .target "target" .curio_result_type "positive" .healstress 3 .on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 5" .target "target" .curio_result_type "positive" .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 1" .target "target" .curio_result_type "positive" .chance 66% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 2" .target "target" .curio_result_type "positive" .chance 66% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 3" .target "target" .curio_result_type "positive" .chance 66% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 4" .target "target" .curio_result_type "positive" .chance 66% .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 5" .target "target" .curio_result_type "positive" .chance 66% .healstress 7	.on_hit true .on_miss false .queue true
 
 //Guard Dog
 effect: .name "HM Guard 1"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 1
@@ -870,11 +830,11 @@ effect: .name "Hound Protect 4" .target "performer" .curio_result_type "positive
 effect: .name "Hound Protect 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 25% .on_hit true .on_miss false .queue true
 
 // Lick Wounds
-effect: .name "Lick Wounds 1" .target "performer" .curio_result_type "positive" .chance 100% .cure 1 .heal 2 .on_hit true .on_miss false .queue false
-effect: .name "Lick Wounds 2" .target "performer" .curio_result_type "positive" .chance 100% .cure 1 .heal 4 .on_hit true .on_miss false	.queue false
-effect: .name "Lick Wounds 3" .target "performer" .curio_result_type "positive" .chance 100% .cure 1 .heal 6 .on_hit true .on_miss false	.queue false
-effect: .name "Lick Wounds 4" .target "performer" .curio_result_type "positive" .chance 100% .cure 1 .heal 8 .on_hit true .on_miss false .queue false
-effect: .name "Lick Wounds 5" .target "performer" .curio_result_type "positive" .chance 100% .cure 1 .heal 10 .on_hit true .on_miss false .queue false
+effect: .name "Lick Wounds 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue false
+effect: .name "Lick Wounds 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false	.queue false
+effect: .name "Lick Wounds 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 7	.on_hit true .on_miss false	.queue false
+effect: .name "Lick Wounds 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false .queue false
+effect: .name "Lick Wounds 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 10	.on_hit true .on_miss false .queue false
 
 //Blackjack
 
@@ -903,7 +863,7 @@ effect: .name "Whistle Target 5" .target "target" .curio_result_type "negative" 
 
 
 //Finale
-effect: .name "Mortal Weakness" .target "performer" .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply -40% .damage_high_multiply -40% .on_hit true .on_miss true .queue true
+effect: .name "Mortal Weakness" .target "performer" .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add -10% .damage_low_multiply -40% .damage_high_multiply -40% .defense_rating_add -30% .on_hit true .on_miss true .queue true
 
 //Inspiring Tune
 effect: .name "InspiringTune 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 10	.on_hit true .on_miss false .queue true
@@ -961,7 +921,7 @@ effect: .name "Leper Strength 3" .target "performer" .chance 100% .curio_result_
 effect: .name "Leper Strength 4" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 13% .damage_low_multiply 32% .damage_high_multiply 32% .crit_chance_add 4%	.on_hit true .on_miss true .queue true
 effect: .name "Leper Strength 5" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 15% .damage_low_multiply 35% .damage_high_multiply 35% .crit_chance_add 5%	.on_hit true .on_miss true .queue true
 
-effect: .name "Leper Vulnerability" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .defense_rating_add -15% .on_hit true .on_miss true .queue true
+effect: .name "Leper Vulnerability" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .defense_rating_add -15% .protection_rating_add -25% .on_hit true .on_miss true .queue true
 
 //Solemnity
 effect: .name "LeperHealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue false
@@ -1044,7 +1004,7 @@ effect: .name "Bolster 1" .target "target" .curio_result_type "positive" .chance
 effect: .name "Bolster 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 6%  .speed_rating_add 3 .on_hit true .on_miss true	.queue true
 effect: .name "Bolster 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 7%  .speed_rating_add 3 .on_hit true .on_miss true	.queue true
 effect: .name "Bolster 4" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 8%  .speed_rating_add 4 .on_hit true .on_miss true	.queue true
-effect: .name "Bolster 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 10%  .speed_rating_add 5 .on_hit true .on_miss true	.queue true
+effect: .name "Bolster 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 9%  .speed_rating_add 5 .on_hit true .on_miss true	.queue true
 //-------------------------
 
 
@@ -1066,9 +1026,9 @@ effect: .name "Occ Weakening Curse 5" .target "target" .curio_result_type "negat
 //Wyrd Reconstruction
 effect: .name "Wyrd Bleed 1" .target "target" .curio_result_type "negative" .chance 60%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
 effect: .name "Wyrd Bleed 2" .target "target" .curio_result_type "negative" .chance 70%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
-effect: .name "Wyrd Bleed 3" .target "target" .curio_result_type "negative" .chance 75%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
-effect: .name "Wyrd Bleed 4" .target "target" .curio_result_type "negative" .chance 80%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
-effect: .name "Wyrd Bleed 5" .target "target" .curio_result_type "negative" .chance 85%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Wyrd Bleed 3" .target "target" .curio_result_type "negative" .chance 70%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Wyrd Bleed 4" .target "target" .curio_result_type "negative" .chance 80%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Wyrd Bleed 5" .target "target" .curio_result_type "negative" .chance 85%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
 
 //Vulnerability Hex
 effect: .name "Occ Vulnerability Curse 1" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .defense_rating_add -15%	.on_hit true .on_miss false
@@ -1103,11 +1063,11 @@ effect: .name "Occ Vulnerability Curse 5" .target "target" .curio_result_type "n
 
 
 //Emboldening Vapours
-effect: .name "PD Vapours Buff 1" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .speed_rating_add 1	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 2" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 12% .damage_high_multiply 12% .speed_rating_add 1	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 3" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 14% .damage_high_multiply 14% .speed_rating_add 2	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 4" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .speed_rating_add 2	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 5" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .speed_rating_add 3	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 1" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .speed_rating_add 3	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 2" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 27% .damage_high_multiply 27% .speed_rating_add 4	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 3" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 29% .damage_high_multiply 29% .speed_rating_add 5	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 4" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 31% .damage_high_multiply 31% .speed_rating_add 6	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 5" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 33% .damage_high_multiply 33% .speed_rating_add 7	.on_hit true .on_miss false
 
 //Disorienting Blast
 effect: .name "PD Disorienting Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true

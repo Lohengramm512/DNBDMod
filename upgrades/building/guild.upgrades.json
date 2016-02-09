@@ -13,7 +13,7 @@
                [
                   { "type" : "gold", "amount" : 0},
                   { "type" : "portrait", "amount" : 6},
-                  { "type" : "crest", "amount" : 12}
+                  { "type" : "crest", "amount" : 11}
                ],
                "prerequisite_requirements" :
                [
@@ -24,8 +24,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "portrait", "amount" : 12},
-               { "type" : "crest", "amount" : 24}
+               { "type" : "portrait", "amount" : 15},
+               { "type" : "crest", "amount" : 30}
             ],
             "prerequisite_requirements" :
             [
@@ -37,8 +37,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "portrait", "amount" : 18},
-               { "type" : "crest", "amount" : 36}
+               { "type" : "portrait", "amount" : 24},
+               { "type" : "crest", "amount" : 48}
             ],
             "prerequisite_requirements" :
             [
@@ -50,8 +50,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "portrait", "amount" : 24},
-               { "type" : "crest", "amount" : 48}
+               { "type" : "portrait", "amount" : 33},
+               { "type" : "crest", "amount" : 67}
             ],
             "prerequisite_requirements" :
             [
@@ -71,8 +71,8 @@
                "currency_cost" :
                [
                   { "type" : "gold", "amount" : 0},
-                  { "type" : "portrait", "amount" : 3},
-                  { "type" : "crest", "amount" : 9}
+                  { "type" : "portrait", "amount" : 2},
+                  { "type" : "crest", "amount" : 5}
                ],
                "prerequisite_requirements" :
                [
@@ -83,8 +83,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "portrait", "amount" : 6},
-               { "type" : "crest", "amount" : 12}
+               { "type" : "portrait", "amount" : 5},
+               { "type" : "crest", "amount" : 11}
             ],
             "prerequisite_requirements" :
             [
@@ -96,8 +96,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "portrait", "amount" : 9},
-               { "type" : "crest", "amount" : 18}
+               { "type" : "portrait", "amount" : 8},
+               { "type" : "crest", "amount" : 17}
             ],
             "prerequisite_requirements" :
             [
@@ -109,8 +109,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "portrait", "amount" : 12},
-               { "type" : "crest", "amount" : 24}
+               { "type" : "portrait", "amount" : 11},
+               { "type" : "crest", "amount" : 23}
             ],
             "prerequisite_requirements" :
             [
@@ -122,8 +122,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "portrait", "amount" : 15},
-               { "type" : "crest", "amount" : 30}
+               { "type" : "portrait", "amount" : 14},
+               { "type" : "crest", "amount" : 29}
             ],
             "prerequisite_requirements" :
             [

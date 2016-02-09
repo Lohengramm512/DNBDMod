@@ -14,11 +14,11 @@ combat_skill: .id "dirk_stab" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .
 combat_skill: .id "dirk_stab" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .move 0 1 .launch 4321 .target 123 .is_crit_valid True 
 combat_skill: .id "dirk_stab" .level 3 .type "melee" .atk 100% .dmg 0% .crit 4% .move 0 1 .launch 4321 .target 123 .is_crit_valid True 
 combat_skill: .id "dirk_stab" .level 4 .type "melee" .atk 105% .dmg 0% .crit 4% .move 0 1 .launch 4321 .target 123 .is_crit_valid True 
-combat_skill: .id "harvest" .level 0 .type "melee" .atk 90% .dmg -66% .crit 0% .launch 21 .target ~123 .is_crit_valid True  .effect "Bleed 1" .generation_guaranteed true
-combat_skill: .id "harvest" .level 1 .type "melee" .atk 95% .dmg -66% .crit 0% .launch 21 .target ~123 .is_crit_valid True  .effect "Bleed 2"
-combat_skill: .id "harvest" .level 2 .type "melee" .atk 100% .dmg -66% .crit 1% .launch 21 .target ~123 .is_crit_valid True  .effect "Bleed 3"
-combat_skill: .id "harvest" .level 3 .type "melee" .atk 105% .dmg -66% .crit 2% .launch 21 .target ~123 .is_crit_valid True  .effect "Bleed 4"
-combat_skill: .id "harvest" .level 4 .type "melee" .atk 110% .dmg -66% .crit 2% .launch 21 .target ~123 .is_crit_valid True  .effect "Bleed 5"
+combat_skill: .id "harvest" .level 0 .type "melee" .atk 90% .dmg -50% .crit 0% .launch 32 .target ~23 .is_crit_valid True  .effect "Bleed 1" .generation_guaranteed true
+combat_skill: .id "harvest" .level 1 .type "melee" .atk 95% .dmg -50% .crit 0% .launch 32 .target ~23 .is_crit_valid True  .effect "Bleed 2"
+combat_skill: .id "harvest" .level 2 .type "melee" .atk 100% .dmg -50% .crit 1% .launch 32 .target ~23 .is_crit_valid True  .effect "Bleed 3"
+combat_skill: .id "harvest" .level 3 .type "melee" .atk 105% .dmg -50% .crit 2% .launch 32 .target ~23 .is_crit_valid True  .effect "Bleed 4"
+combat_skill: .id "harvest" .level 4 .type "melee" .atk 110% .dmg -50% .crit 2% .launch 32 .target ~23 .is_crit_valid True  .effect "Bleed 5"
 combat_skill: .id "heroic_end" .level 0 .type "melee" .atk 90% .dmg 50% .crit 15% .move 3 0 .launch 1 .target 123 .is_crit_valid True  .effect "Mortal Weakness"
 combat_skill: .id "heroic_end" .level 1 .type "melee" .atk 95% .dmg 50% .crit 16% .move 3 0 .launch 1 .target 123 .is_crit_valid True  .effect "Mortal Weakness"
 combat_skill: .id "heroic_end" .level 2 .type "melee" .atk 100% .dmg 50% .crit 16% .move 3 0 .launch 1 .target 123 .is_crit_valid True  .effect "Mortal Weakness"
@@ -30,11 +30,11 @@ combat_skill: .id "solo" .level 2 .type "ranged" .atk 100% .dmg -100% .crit 0% .
 combat_skill: .id "solo" .level 3 .type "ranged" .atk 105% .dmg -100% .crit 0% .move 0 3 .launch 4321 .target ~1234 .is_crit_valid False  .effect "Distract Enemies 4" "Jester Self Speed 4"
 combat_skill: .id "solo" .level 4 .type "ranged" .atk 110% .dmg -100% .crit 0% .move 0 3 .launch 4321 .target ~1234 .is_crit_valid False  .effect "Distract Enemies 5" "Jester Self Speed 5"
 combat_move_skill: .id "move" .level 0 .type "move" .move 3 3 .launch 4321
-combat_skill: .id "slice_off" .level 0 .type "melee" .atk 95% .dmg -33% .crit 8% .launch 34 .target 234 .is_crit_valid True  .effect "Strong Bleed 1"
-combat_skill: .id "slice_off" .level 1 .type "melee" .atk 100% .dmg -33% .crit 8% .launch 34 .target 234 .is_crit_valid True  .effect "Strong Bleed 2"
-combat_skill: .id "slice_off" .level 2 .type "melee" .atk 105% .dmg -33% .crit 8% .launch 34 .target 234 .is_crit_valid True  .effect "Strong Bleed 3"
-combat_skill: .id "slice_off" .level 3 .type "melee" .atk 110% .dmg -33% .crit 9% .launch 34 .target 234 .is_crit_valid True  .effect "Strong Bleed 4"
-combat_skill: .id "slice_off" .level 4 .type "melee" .atk 115% .dmg -33% .crit 10% .launch 34 .target 234 .is_crit_valid True  .effect "Strong Bleed 5"
+combat_skill: .id "slice_off" .level 0 .type "melee" .atk 95% .dmg -33% .crit 8% .launch 32 .target 23 .is_crit_valid True  .effect "Strong Bleed 1"
+combat_skill: .id "slice_off" .level 1 .type "melee" .atk 100% .dmg -33% .crit 8% .launch 32 .target 23 .is_crit_valid True  .effect "Strong Bleed 2"
+combat_skill: .id "slice_off" .level 2 .type "melee" .atk 105% .dmg -33% .crit 8% .launch 32 .target 23 .is_crit_valid True  .effect "Strong Bleed 3"
+combat_skill: .id "slice_off" .level 3 .type "melee" .atk 110% .dmg -33% .crit 9% .launch 32 .target 23 .is_crit_valid True  .effect "Strong Bleed 4"
+combat_skill: .id "slice_off" .level 4 .type "melee" .atk 115% .dmg -33% .crit 10% .launch 32 .target 23 .is_crit_valid True  .effect "Strong Bleed 5"
 combat_skill: .id "battle_ballad" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 34 .target @~1234 .is_crit_valid True  .effect "Embolden Team 1"
 combat_skill: .id "battle_ballad" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 34 .target @~1234 .is_crit_valid True  .effect "Embolden Team 2"
 combat_skill: .id "battle_ballad" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 34 .target @~1234 .is_crit_valid True  .effect "Embolden Team 3"
@@ -50,5 +50,5 @@ tag: .id "non-religious"
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 3
 id_index: .index 8
-generation: .number_of_positive_quirks_min 0 .number_of_positive_quirks_max 1 .number_of_negative_quirks_min 0 .number_of_negative_quirks_max 1 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4
+generation: .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4

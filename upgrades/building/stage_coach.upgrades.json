@@ -24,8 +24,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 6},
-               { "type" : "crest", "amount" : 6}
+               { "type" : "deed", "amount" : 8},
+               { "type" : "crest", "amount" : 8}
             ],
             "prerequisite_requirements" :
             [
@@ -37,8 +37,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 9},
-               { "type" : "crest", "amount" : 9}
+               { "type" : "deed", "amount" : 12},
+               { "type" : "crest", "amount" : 12}
             ],
             "prerequisite_requirements" :
             [
@@ -50,8 +50,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 12},
-               { "type" : "crest", "amount" : 12}
+               { "type" : "deed", "amount" : 16},
+               { "type" : "crest", "amount" : 16}
             ],
             "prerequisite_requirements" :
             [
@@ -63,8 +63,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 15},
-               { "type" : "crest", "amount" : 15}
+               { "type" : "deed", "amount" : 21},
+               { "type" : "crest", "amount" : 21}
             ],
             "prerequisite_requirements" :
             [
@@ -84,8 +84,8 @@
                "currency_cost" :
                [
                   { "type" : "gold", "amount" : 0},
-                  { "type" : "deed", "amount" : 5},
-                  { "type" : "crest", "amount" : 5}
+                  { "type" : "deed", "amount" : 3},
+                  { "type" : "crest", "amount" : 3}
                ],
                "prerequisite_requirements" :
                [
@@ -96,8 +96,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 10},
-               { "type" : "crest", "amount" : 10}
+               { "type" : "deed", "amount" : 8},
+               { "type" : "crest", "amount" : 8}
             ],
             "prerequisite_requirements" :
             [
@@ -109,8 +109,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 15},
-               { "type" : "crest", "amount" : 15}
+               { "type" : "deed", "amount" : 12},
+               { "type" : "crest", "amount" : 12}
             ],
             "prerequisite_requirements" :
             [
@@ -122,8 +122,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 20},
-               { "type" : "crest", "amount" : 20}
+               { "type" : "deed", "amount" : 16},
+               { "type" : "crest", "amount" : 16}
             ],
             "prerequisite_requirements" :
             [
@@ -135,8 +135,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "deed", "amount" : 25},
-               { "type" : "crest", "amount" : 25}
+               { "type" : "deed", "amount" : 21},
+               { "type" : "crest", "amount" : 21}
             ],
             "prerequisite_requirements" :
             [
