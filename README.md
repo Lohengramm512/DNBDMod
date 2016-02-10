@@ -1,7 +1,5 @@
-# Darkest Night, Brightest Dawn 2.0c
+# Darkest Night, Brightest Dawn 2.1c
 A Mod For Darkest Dungeon
-
-Current version: 13488.2.1c
 
 Whew! This mod changes pretty much everything about Darkest Dungeon in many tiny ways, and once in a while in a big way.
 
