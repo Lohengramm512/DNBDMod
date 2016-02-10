@@ -610,7 +610,7 @@ effect: .name "FlareStress 5" .target "target" .curio_result_type "positive" .ch
 //Bounty Hunter
 //-------------------------
 //Collect Bounty
-effect: .name "BH Dmg Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 50%	.damage_high_multiply 50% .attack_rating_add 10%	.on_hit true .on_miss false
+effect: .name "BH Dmg Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 70%	.damage_high_multiply 70% .attack_rating_add 10%	.on_hit true .on_miss false
 
 //Mark for Death
 effect: .name "BH Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss false
@@ -622,7 +622,6 @@ effect: .name "BH Mark Debuff 4" .target "target" .curio_result_type "negative" 
 effect: .name "BH Mark Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .protection_rating_add -20.0%	.on_hit true .on_miss false .queue true
 
 //Come Hither
-effect: .name "BH Mark Short"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
 
 //Uppercut
 
@@ -631,10 +630,10 @@ effect: .name "BH Mark Short"	.target "target" .curio_result_type "positive" .ch
 
 
 //Finish Him
-effect: .name "Finish Off 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 50% .damage_high_multiply 50%	.on_hit true .on_miss false
-effect: .name "Finish Off 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 55% .damage_high_multiply 55%	.on_hit true .on_miss false
-effect: .name "Finish Off 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 60% .damage_high_multiply 60%	.on_hit true .on_miss false
-effect: .name "Finish Off 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 65% .damage_high_multiply 65%	.on_hit true .on_miss false
+effect: .name "Finish Off 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 30% .damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "Finish Off 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 40% .damage_high_multiply 40%	.on_hit true .on_miss false
+effect: .name "Finish Off 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 50% .damage_high_multiply 50%	.on_hit true .on_miss false
+effect: .name "Finish Off 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 60% .damage_high_multiply 60%	.on_hit true .on_miss false
 effect: .name "Finish Off 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 70% .damage_high_multiply 70%	.on_hit true .on_miss false
 
 //Hook and Slice
