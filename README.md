@@ -1,18 +1,10 @@
-# Darkest Night, Brightest Dawn - A Mod For Darkest Dungeon
+# Darkest Night, Brightest Dawn 2.0c
+A Mod For Darkest Dungeon
 
-Current stable version: 13488.1.0 (Phase 1)
+Current version: 13488.2.0c
 
-Phase 1 of this mod seeks to enable more team compositions by bringing less useful skills more in line with the better ones. This work is
-laregly finished and will be the main thrust of the initial release.
+Whew! This mod changes pretty much everything about Darkest Dungeon in many tiny ways, and once in a while in a big way.
 
-Phase 2 will be Trinket adjustments, with the goal of removing all the negatives associated with -most- trinkets. Only extremely powerful
-trinkets will still have negative traits associated with them for balance reasons.
+See this document for details:
 
-Phase 3 will be adjusting Camping skills to be less of an extreme mix of just plain awful to amazing. Like the combat skill pass, the
-focus will be more on bringing useless skills in line with the already good ones.
-
-Phase 4 will be about adjusting monsters to continue to provide a fair challenge after all the player buffs that the mod has introduced.
-It is possible some monsters may get nerfs, but I predict it will mostly be about buffing them slightly.
-
-Phase 5 will be all about addressing the overall game flow, reducing grind, etc... Assuming RedHook hasn't taken steps themselves by
-the time I get to this. They've indicated they are watching this closely and about to take more action.
+https://docs.google.com/document/d/1HhiszNQ57AZp3qpKOtrauWim1Qwi0u2SwnZgh-pp3Uc/
