@@ -1142,7 +1142,11 @@ effect: .name "PD Single Blight 5" .target "target" .curio_result_type "negative
 
 
 //Mace Bash
-
+effect: .name "Blunt Mastery 1" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .protection_rating_add -20%	.on_hit true .on_miss false
+effect: .name "Blunt Mastery 2" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .protection_rating_add -22%	.on_hit true .on_miss false
+effect: .name "Blunt Mastery 3" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .protection_rating_add -24%	.on_hit true .on_miss false
+effect: .name "Blunt Mastery 4" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .protection_rating_add -27%	.on_hit true .on_miss false
+effect: .name "Blunt Mastery 5" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .protection_rating_add -30%	.on_hit true .on_miss false
 
 //Dazzling Light
 effect: .name "Dazzling Light 1" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 6	.on_hit true .on_miss true .apply_once true
