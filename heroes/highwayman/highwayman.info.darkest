@@ -14,11 +14,11 @@ combat_skill: .id "wicked_slice" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6
 combat_skill: .id "wicked_slice" .level 2 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "Wicked Debuff 3"
 combat_skill: .id "wicked_slice" .level 3 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .effect "Wicked Debuff 4"
 combat_skill: .id "wicked_slice" .level 4 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True .effect "Wicked Debuff 5"
-combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 85% .dmg -25% .crit 10% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked" .generation_guaranteed true
-combat_skill: .id "pistol_shot" .level 1 .type "ranged" .atk 90% .dmg -25% .crit 11% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
-combat_skill: .id "pistol_shot" .level 2 .type "ranged" .atk 95% .dmg -25% .crit 11% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
-combat_skill: .id "pistol_shot" .level 3 .type "ranged" .atk 100% .dmg -25% .crit 12% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
-combat_skill: .id "pistol_shot" .level 4 .type "ranged" .atk 105% .dmg -25% .crit 12% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 85% .dmg -20% .crit 10% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked" .generation_guaranteed true
+combat_skill: .id "pistol_shot" .level 1 .type "ranged" .atk 90% .dmg -20% .crit 11% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "pistol_shot" .level 2 .type "ranged" .atk 95% .dmg -20% .crit 11% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "pistol_shot" .level 3 .type "ranged" .atk 100% .dmg -20% .crit 12% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "pistol_shot" .level 4 .type "ranged" .atk 105% .dmg -20% .crit 12% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
 combat_skill: .id "point_blank_shot" .level 0 .type "ranged" .atk 95% .dmg 50% .crit 0% .move 1 0 .launch 1 .target 1 .is_crit_valid True  .effect "Push 1A"
 combat_skill: .id "point_blank_shot" .level 1 .type "ranged" .atk 100% .dmg 50% .crit 0% .move 1 0 .launch 1 .target 1 .is_crit_valid True  .effect "Push 1B"
 combat_skill: .id "point_blank_shot" .level 2 .type "ranged" .atk 105% .dmg 50% .crit 1% .move 1 0 .launch 1 .target 1 .is_crit_valid True  .effect "Push 1C"

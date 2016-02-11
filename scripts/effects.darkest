@@ -1107,11 +1107,11 @@ effect: .name "Plague 5" .target "target" .curio_result_type "negative" .chance 
 
 
 //Emboldening Vapours
-effect: .name "PD Vapours Buff 1" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .speed_rating_add 1	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 2" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 12% .damage_high_multiply 12% .speed_rating_add 1	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 3" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 14% .damage_high_multiply 14% .speed_rating_add 2	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 4" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .speed_rating_add 2	.on_hit true .on_miss false
-effect: .name "PD Vapours Buff 5" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .speed_rating_add 2	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 1" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .speed_rating_add 2	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 2" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 12% .damage_high_multiply 12% .speed_rating_add 2	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 3" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 14% .damage_high_multiply 14% .speed_rating_add 3	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 4" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .speed_rating_add 3	.on_hit true .on_miss false
+effect: .name "PD Vapours Buff 5" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .speed_rating_add 4	.on_hit true .on_miss false
 
 //Disorienting Blast
 effect: .name "PD Disorienting Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
