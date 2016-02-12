@@ -1,5 +1,4 @@
-#Images & DLLs
-
+#Files for Darkest Dungeon that shouldn't be modified by the mod are ignored here.
 
 _CommonRedist/
 _windows/
@@ -52,10 +51,7 @@ video/
 *.dm
 *.loc
 *.fnt
-*.xml
 *.dll
-*.xml
-*.xml
 pin
 scripts/camera.darkest
 scripts/starting_roster.darkest
