@@ -18,7 +18,7 @@ game_over/
 inventory/
 loading_screen/
 localization/*
-!localization/curios.string_table.xml
+!localization/curios.*
 maps/
 monsters/
 overlays/
