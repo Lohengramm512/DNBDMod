@@ -8,7 +8,7 @@ inventory_system_config:	.type "hero_equipped_trinkets"		.max_slots 2				.use_st
 inventory_system_config:	.type "goal_starting_items"			.max_slots 99				.use_stack_limits true
 
 inventory_item:	.type "provision"		.id ""						.stack_limit 12		.purchase_gold_value 75			.sell_gold_value 5
-inventory_item:	.type "gold"			.id ""						.stack_limit 1500	.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "gold"			.id ""						.stack_limit 2500	.purchase_gold_value 0			.sell_gold_value 0
 
 inventory_item:	.type "heirloom"	.id "portrait"					.stack_limit 4		.purchase_gold_value 0			.sell_gold_value 0
 inventory_item:	.type "heirloom"	.id "bust"						.stack_limit 8		.purchase_gold_value 0			.sell_gold_value 0
@@ -16,11 +16,11 @@ inventory_item:	.type "heirloom"	.id "crest"						.stack_limit 16		.purchase_gol
 inventory_item:	.type "heirloom"	.id "deed"						.stack_limit 8		.purchase_gold_value 0			.sell_gold_value 0
 inventory_item:	.type "heirloom"	.id "urn"						.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
 
-inventory_item:	.type "gem"			.id "ruby"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 1000
-inventory_item:	.type "gem"			.id "emerald"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 500
+inventory_item:	.type "gem"			.id "ruby"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 1500
+inventory_item:	.type "gem"			.id "emerald"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 750
 inventory_item:	.type "gem"			.id "sapphire"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 1000
-inventory_item:	.type "gem"			.id "citrine"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 400
-inventory_item:	.type "gem"			.id "onyx"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 500
+inventory_item:	.type "gem"			.id "citrine"					.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 500
+inventory_item:	.type "gem"			.id "onyx"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 400
 inventory_item:	.type "gem"			.id "pewrelic"					.stack_limit 1		.purchase_gold_value 0			.sell_gold_value 1250
 inventory_item:	.type "gem"			.id "jade"						.stack_limit 5		.purchase_gold_value 0			.sell_gold_value 300
 inventory_item:	.type "gem"			.id "trapezohedron"		.stack_limit 2		.purchase_gold_value 0			.sell_gold_value 2500

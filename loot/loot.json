@@ -127,9 +127,9 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
-            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 150 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 200 }},
             { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
             { "type" : "item", "chances" : 2, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
@@ -143,9 +143,9 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 2, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 150 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 200 }},
             { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
             { "type" : "item", "chances" : 2, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
@@ -159,9 +159,9 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 150 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 200 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
@@ -175,9 +175,9 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 150 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 200 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
@@ -191,12 +191,12 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
-            { "type" : "item", "chances" : 10, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
-            { "type" : "item", "chances" : 10, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
          ]
       },
       {
@@ -207,11 +207,11 @@
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
-            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
-            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
-            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
-            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
          ]
       },
       {
@@ -222,11 +222,11 @@
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
-            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
-            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
-            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
+            { "type" : "item", "chances" : 0, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
          ]
       },
       {
@@ -237,11 +237,11 @@
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
-            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
             { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
-            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }}
          ]
       },
       {
@@ -504,11 +504,11 @@
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "very_common" }},
-            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "common" }},
-            { "type" : "trinket", "chances" : 25, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 20, "data" : { "rarity" : "uncommon" }},
             { "type" : "trinket", "chances" : 50, "data" : { "rarity" : "rare" }},
-            { "type" : "trinket", "chances" : 15, "data" : { "rarity" : "very_rare" }},
-            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "ancestral" }},
+            { "type" : "trinket", "chances" : 20, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 10, "data" : { "rarity" : "ancestral" }},
             { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "ancestral_shambler" }}
          ]
       },
