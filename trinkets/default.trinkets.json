@@ -1035,7 +1035,7 @@
          "buffs" : 
          [
             "TRINKET_STUNSKILL_B2",
-            "TRINKET_STUNRESIST_B1"
+            "TRINKET_STUNRESIST_B2"
          ],
          "hero_class_requirements":
          [
@@ -1065,7 +1065,7 @@
          "buffs" : 
          [
             "TRINKET_BLEEDSKILL_B2",
-            "TRINKET_BLEEDRESIST_B1"
+            "TRINKET_BLEEDRESIST_B2"
          ],
          "hero_class_requirements":
          [
@@ -1156,7 +1156,7 @@
          "id" : "steady_bracer",
          "buffs" : 
          [
-            "TRINKET_rangedonly_ACC_B2"
+            "TRINKET_ACC_B2"
          ],
          "hero_class_requirements":
          [
@@ -1305,7 +1305,8 @@
          "id" : "gamblers_charm",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B2"
+            "TRINKET_MAXHP_B2",
+			"TRINKET_DEATHBLOWRESIST_D2"
          ],
          "hero_class_requirements":
          [
@@ -1335,7 +1336,8 @@
          "buffs" : 
          [
             "TRINKET_BLIGHTRESIST_B2",
-            "TRINKET_DISEASERESIST_B2"
+            "TRINKET_DISEASERESIST_B2",
+            "TRINKET_MAXHP_B1"
          ],
          "hero_class_requirements":
          [
@@ -1394,8 +1396,8 @@
          "id" : "surgical_glove",
          "buffs" : 
          [
-            "TRINKET_surgical_glove_MELEECRIT_BUFF",
-            "TRINKET_surgical_glove_MELEEACC_BUFF"
+            "TRINKET_meleeonly_ACC_B2",
+			"TRINKET_meleeonly_CRIT_B2"
          ],
          "hero_class_requirements":
          [
@@ -1485,9 +1487,10 @@
          "id" : "book_of_rage",
          "buffs" : 
          [
-            "TRINKET_book_of_rage_HPBELOWDMG_BUFF_L",
-            "TRINKET_book_of_rage_HPBELOWDMG_BUFF_H",
-            "TRINKET_book_of_rage_HPBELOWCRIT_BUFF"
+            "TRINKET_DMGL_B3",
+			"TRINKET_DMGH_B3",
+            "TRINKET_CRIT_B2",
+            "TRINKET_HPHEALRECEIVED_D2"
          ],
          "hero_class_requirements":
          [
@@ -1699,7 +1702,8 @@
          "id" : "archers_ring",
          "buffs" : 
          [
-            "TRINKET_rangedonly_ACC_B1"
+            "TRINKET_rangedonly_ACC_B1",
+			"TRINKET_rangedonly_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -1718,7 +1722,7 @@
          "hero_class_requirements":
          [
          ],
-         "rarity" : "common",
+         "rarity" : "very_common",
          "price" : 7500,
          "limit" : 0,
          "origin_dungeon" : "weald"
@@ -1911,7 +1915,8 @@
          "id" : "warriors_cap",
          "buffs" : 
          [
-            "TRINKET_meleeonly_ACC_B1"
+            "TRINKET_meleeonly_ACC_B1",
+			"TRINKET_meleeonly_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -2013,7 +2018,8 @@
          "id" : "blood_charm",
          "buffs" : 
          [
-            "TRINKET_BLEEDRESIST_B2"
+            "TRINKET_BLEEDRESIST_B1",
+			"TRINKET_BLEEDSKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -2107,7 +2113,6 @@
          "buffs" : 
          [
             "TRINKET_SCOUTING_B1",
-            "TRINKET_DEF_B1"
          ],
          "hero_class_requirements":
          [
@@ -2388,12 +2393,13 @@
          "id" : "blight_stone",
          "buffs" : 
          [
-            "TRINKET_BLIGHTSKILL_B1"
+            "TRINKET_BLIGHTSKILL_B1",
+			"TRINKET_BLIGHTRESIST_B1"
          ],
          "hero_class_requirements":
          [
          ],
-         "rarity" : "very_common",
+         "rarity" : "common",
          "price" : 5000,
          "limit" : 0,
          "origin_dungeon" : ""
