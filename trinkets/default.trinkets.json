@@ -34,7 +34,6 @@
          "id" : "ancestors_musket_ball",
          "buffs" : 
          [
-            "TRINKET_ancestors_musket_ball_RANGEDCRIT_BUFF",
             "TRINKET_ancestors_musket_ball_RANGEDDMG_BUFF_L",
             "TRINKET_ancestors_musket_ball_RANGEDDMG_BUFF_H"
          ],
@@ -50,7 +49,8 @@
          "id" : "ancestors_pistol",
          "buffs" : 
          [
-            "TRINKET_rangedonly_ACC_B4"
+            "TRINKET_rangedonly_ACC_B4",
+			"TRINKET_ancestors_musket_ball_RANGEDCRIT_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -80,7 +80,8 @@
          "id" : "ancestors_portrait",
          "buffs" : 
          [
-            "TRINKET_RESOLVEXPBONUS_B4"
+            "TRINKET_RESOLVEXPBONUS_B4",
+			"TRINKET_MADMAN_STRESSRESIST_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -186,7 +187,8 @@
          "id" : "ancestors_tentacle_idol",
          "buffs" : 
          [
-            "TRINKET_RESOLVECHECK_B4"
+            "TRINKET_RESOLVECHECK_B4",
+			"TRINKET_DEATHBLOWRESIST_B3"
          ],
          "hero_class_requirements":
          [
@@ -200,7 +202,8 @@
          "id" : "ancestors_bottle",
          "buffs" : 
          [
-            "TRINKET_MAXHP_B4"
+            "TRINKET_MAXHP_B4",
+            "TRINKET_ancestors_scroll_HEALRECEIVED_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -214,7 +217,7 @@
          "id" : "ancestors_scroll",
          "buffs" : 
          [
-            "TRINKET_ancestors_scroll_HEALRECEIVED_BUFF",
+            "TRINKET_MADMAN_STRESSRESIST_BUFF",
             "TRINKET_ancestors_scroll_STRESSHEALRECEIVED_BUFF"
          ],
          "hero_class_requirements":
@@ -1306,7 +1309,7 @@
          "buffs" : 
          [
             "TRINKET_MAXHP_B2",
-			"TRINKET_DEATHBLOWRESIST_D2"
+            "TRINKET_DEATHBLOWRESIST_D2"
          ],
          "hero_class_requirements":
          [
@@ -1397,7 +1400,7 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_ACC_B2",
-			"TRINKET_meleeonly_CRIT_B2"
+            "TRINKET_meleeonly_CRIT_B2"
          ],
          "hero_class_requirements":
          [
@@ -1488,7 +1491,7 @@
          "buffs" : 
          [
             "TRINKET_DMGL_B3",
-			"TRINKET_DMGH_B3",
+            "TRINKET_DMGH_B3",
             "TRINKET_CRIT_B2",
             "TRINKET_HPHEALRECEIVED_D2"
          ],
@@ -1703,7 +1706,7 @@
          "buffs" : 
          [
             "TRINKET_rangedonly_ACC_B1",
-			"TRINKET_rangedonly_CRIT_B1"
+            "TRINKET_rangedonly_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -1733,7 +1736,7 @@
          [
             "TRINKET_DMGL_RANGED_B1",
             "TRINKET_DMGH_RANGED_B1",
-			"TRINKET_rangedonly_ACC_B1"
+            "TRINKET_rangedonly_ACC_B1"
          ],
          "hero_class_requirements":
          [
@@ -1916,7 +1919,7 @@
          "buffs" : 
          [
             "TRINKET_meleeonly_ACC_B1",
-			"TRINKET_meleeonly_CRIT_B1"
+            "TRINKET_meleeonly_CRIT_B1"
          ],
          "hero_class_requirements":
          [
@@ -2019,7 +2022,7 @@
          "buffs" : 
          [
             "TRINKET_BLEEDRESIST_B1",
-			"TRINKET_BLEEDSKILL_B1"
+            "TRINKET_BLEEDSKILL_B1"
          ],
          "hero_class_requirements":
          [
@@ -2394,7 +2397,7 @@
          "buffs" : 
          [
             "TRINKET_BLIGHTSKILL_B1",
-			"TRINKET_BLIGHTRESIST_B1"
+            "TRINKET_BLIGHTRESIST_B1"
          ],
          "hero_class_requirements":
          [
