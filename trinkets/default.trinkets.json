@@ -2705,9 +2705,8 @@
          "id" : "boss_necromancer",
          "buffs" : 
          [
-            "TRINKET_NECROTROPHY_unholyDMG_BUFF_L",
-            "TRINKET_NECROTROPHY_unholyDMG_BUFF_H",
-            "TRINKET_NECROTROPHY_unholyCRIT_BUFF"
+         "TRINKET_DEATHBLOWRESIST_B3",
+         "TRINKET_FLESHTROPHY_MAXHP_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -2737,8 +2736,8 @@
          "id" : "boss_wilbur",
          "buffs" : 
          [
-            "TRINKET_SWINETROPHY_STUNRESIST_BUFF",
-            "TRINKET_SWINETROPHY_DODGE_BUFF"
+            "TRINKET_STUNSKILL_B3",
+            "TRINKET_DEF_B3"
          ],
          "hero_class_requirements":
          [
@@ -2752,7 +2751,7 @@
          "id" : "boss_siren",
          "buffs" : 
          [
-            "TRINKET_SIRENTROPHY_DEBUFFRESIST_BUFF",
+            "TRINKET_DEBUFFSKILL_B3",
             "TRINKET_SIRENTROPHY_STRESSDMG_BUFF"
          ],
          "hero_class_requirements":
@@ -2784,9 +2783,9 @@
          "id" : "boss_prophet",
          "buffs" : 
          [
-            "TRINKET_PROHPETTROPHY_BACKRANKACC_BUFF",
-            "TRINKET_PROHPETTROPHY_BACKRANKSPD_BUFF",
-            "TRINKET_PROHPETTROPHY_BACKRANKSTRESSDMG_BUFF"
+            "TRINKET_ACC_B3",
+            "TRINKET_SPD_B3",
+            "TRINKET_STRESSDMG_B2"
          ],
          "hero_class_requirements":
          [
@@ -2800,7 +2799,7 @@
          "id" : "boss_flesh",
          "buffs" : 
          [
-            "TRINKET_FLESHTROPHY_BLEEDRESIST_BUFF",
+            "TRINKET_BLEEDSKILL_B3",
             "TRINKET_FLESHTROPHY_MAXHP_BUFF"
          ],
          "hero_class_requirements":
@@ -2815,7 +2814,7 @@
          "id" : "boss_crew",
          "buffs" : 
          [
-            "TRINKET_CREWTROPHY_MOVERESIST_BUFF",
+            "TRINKET_MOVESKILL_B3",
             "TRINKET_CREWTROPHY_HEALRECEIVED_BUFF"
          ],
          "hero_class_requirements":
