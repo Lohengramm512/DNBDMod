@@ -50,7 +50,7 @@
          "buffs" : 
          [
             "TRINKET_rangedonly_ACC_B4",
-			"TRINKET_ancestors_musket_ball_RANGEDCRIT_BUFF"
+            "TRINKET_ancestors_musket_ball_RANGEDCRIT_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -81,7 +81,7 @@
          "buffs" : 
          [
             "TRINKET_RESOLVEXPBONUS_B4",
-			"TRINKET_MADMAN_STRESSRESIST_BUFF"
+            "TRINKET_MADMAN_STRESSRESIST_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -188,7 +188,7 @@
          "buffs" : 
          [
             "TRINKET_RESOLVECHECK_B4",
-			"TRINKET_DEATHBLOWRESIST_B3"
+            "TRINKET_DEATHBLOWRESIST_B3"
          ],
          "hero_class_requirements":
          [
