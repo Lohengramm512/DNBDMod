@@ -2115,7 +2115,7 @@
          "id" : "caution_cloak",
          "buffs" : 
          [
-            "TRINKET_SCOUTING_B1",
+            "TRINKET_SCOUTING_B1"
          ],
          "hero_class_requirements":
          [
