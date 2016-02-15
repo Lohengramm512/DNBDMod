@@ -6,7 +6,8 @@ _windows/
 _windowsnosteam/
 activity_log/
 audio/
-campaign/
+campaign/*
+!campaign/roster/roster.json
 colours/
 curios/
 cursors/
@@ -19,13 +20,13 @@ inventory/
 loading_screen/
 localization/*
 !localization/curios.*
-loot/
 maps/
 monsters/
 overlays/
 panels/
 props/
-raid/
+raid/*
+!raid/camping/default.camping_skills.json
 raid_results/
 scripts/layout/
 scripts/starting_save/
