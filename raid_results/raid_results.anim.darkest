@@ -1,0 +1,39 @@
+// script for treasure get times
+
+treasure_item_alpha:
+ 		.value	1.0	
+					
+treasure_item_wait:
+		.time 0.3
+
+treasure_item_value_popup_offset_y:
+		.deltavalue 60	
+		.time 1.0
+
+treasure_gold_total_scale_pulse:		
+		.value 1.1		
+		.time 0.2 
+
+heirloom_total_scale_pulse:
+		.value 1.4
+		.time 0.2
+
+raid_results_heroes_xptext_xoffset:
+		.from_value -175.0
+		.to_value 0.0
+		.time 1.4
+
+raid_results_heroes_masks:
+		.offset -7.0 39.0
+		  
+raid_results_heroes_quirk_text_wait:
+		.time 0.666
+			
+raid_results_heroes_quirk_text_alpha:
+		.value 1.0
+		.time 0.8
+		
+raid_results_heroes_resolve_xp_bar:
+		.time 2.0
+
+		 
