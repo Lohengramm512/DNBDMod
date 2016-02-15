@@ -4,7 +4,7 @@ treasure_item_alpha:
  		.value	1.0	
 					
 treasure_item_wait:
-		.time 0.3
+		.time 0.1
 
 treasure_item_value_popup_offset_y:
 		.deltavalue 60	
@@ -12,11 +12,11 @@ treasure_item_value_popup_offset_y:
 
 treasure_gold_total_scale_pulse:		
 		.value 1.1		
-		.time 0.2 
+		.time 0.1
 
 heirloom_total_scale_pulse:
 		.value 1.4
-		.time 0.2
+		.time 0.1
 
 raid_results_heroes_xptext_xoffset:
 		.from_value -175.0
